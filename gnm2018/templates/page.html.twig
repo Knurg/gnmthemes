@@ -52,6 +52,11 @@
 #}
 <div id="page-wrapper">
   <div id="page">
+    {% if page.above_header is not empty %}
+    <div id="above_header" class="above-header" aria-label="{{ 'Above header'|t }}">
+      {{ page.above_header }}
+    </div>
+    {% endif %}
     <header id="header" class="header" role="banner" aria-label="{{ 'Site header'|t }}">
 	<div id="first-level-wrapper" class="header-wrapper">
 	  <div id="first-level" class="header-level">
