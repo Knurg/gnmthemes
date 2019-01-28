@@ -1,0 +1,13 @@
+@font-face { font-family: 'corpos';
+             src: url('/themes/gnm2018/font/corporates-regular-webfont.eot')  format('eot'),
+                  url('/themes/gnm2018/font/corporates-regular-webfont.woff')  format('woff'); }
+
+@font-face { font-family: 'corpos-b';
+             src: url('/themes/gnm2018/font/corporates-bold-webfont.eot')  format('eot'),
+                  url('/themes/gnm2018/font/corporates-bold-webfont.woff')  format('woff'); }
+
+@font-face { font-family: 'raleway';
+             src: url('/themes/gnm2018/font/Raleway-Regular.eot')  format('eot'),
+                  url('/themes/gnm2018/font/Raleway-Regular.woff')  format('woff'); }
+
+

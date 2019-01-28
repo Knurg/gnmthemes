@@ -1,0 +1,13 @@
+/* main body */
+div#main-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+main#content {
+  position: relative;
+}
+
+div#main {
+
+}

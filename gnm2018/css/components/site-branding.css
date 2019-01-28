@@ -1,0 +1,28 @@
+/* for now: do not display. TODO: display in mobile layout! */
+section[id*='projekttitel'] {
+  display: none;  
+}
+
+@media (max-width: 1099px) {
+  div#header-items section.site-branding div.site-branding__text {
+    position: relative;
+    top: initial;
+  }
+}
+
+section.site-branding div.site-branding__text {
+  overflow: hidden;
+  width: auto;
+  top: -1.5em;
+  position: absolute;
+  background-color: white;
+  z-index: -1000;
+  white-space: nowrap;
+}
+
+section.site-branding a {
+  text-decoration: none;
+  color: inherit;
+  font-family: "corpos-b";
+}
+

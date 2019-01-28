@@ -1,0 +1,155 @@
+/* header should be really big */
+header {
+  width: 100%;
+  position: relative; 
+}
+
+/* any wrapper element in the header element */
+div.header-wrapper {
+}
+
+div.header-level {
+  width: 1100px;
+  position: relative;
+  display: flex;
+  margin: auto;
+}
+
+/* everything about the first level (white top bar) */
+div#first-level-wrapper {
+  position: relative;
+  background-color: white;
+  width: 100%;
+  height: 1.8em;
+}
+
+div#first-level {
+  width: 780px;
+  justify-content: flex-end;
+}
+
+div#first-level ul {
+  margin: 0px;
+  display: block;
+  list-style: none;
+  padding-top: 4px;
+}
+
+div#first-level > div {
+  float: right;
+}
+
+/* the schlueppercolored bar */
+div#second-level-wrapper {
+  position: relative;
+  background-color: #eae3d5;
+  width: 100%;
+  height: 3em;
+  z-index: 100;
+}
+
+div#second-level {
+  justify-content: space-between;
+}
+
+/* the breadcrumb */
+div#third-level-wrapper {
+  position: relative;
+  background-color: white;
+  width: 100%;
+  max-height: 1.8em;
+}
+
+div#third-level {
+}
+
+/* GNM logo */
+div#gnm-logo {
+  max-width: 160px;
+}
+
+div#gnm-logo img {
+  background-color: white;
+  padding: 10px;
+  width: 140px;
+  top: -1.8em;
+  position: relative;
+}
+
+/* Navigation */
+
+div#second-level div#main-menu {
+  width: 100%;
+}
+
+div#second-level div#main-menu * {
+ box-sizing:content-box;
+}
+
+div#second-level div#main-menu div > nav ul {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 12px;
+  margin-bottom: 0px;
+ // padding-right: 20px;
+  justify-content: flex-start;
+  margin-left: -1px;
+
+}
+
+div#second-level div#main-menu div > nav > ul > li:first-child {
+  text-align: center;
+  border-left: none;
+  padding-left: 0px;
+//  padding-right: 20px;
+}
+
+
+div#second-level div#main-menu div > nav > ul > li {
+  text-align: center;
+  border-left: 1px solid #464646;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 14px;
+  line-height: 1em;
+}
+
+
+div#second-level div#main-menu div > nav ul a {
+  text-decoration: none;
+  color: #464646;
+  font-weight: normal;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+
+div#second-level div#main-menu div > nav > ul > li > ul {
+  z-index: 10;
+  text-align: left;
+  position: absolute;
+  z-index: 2;
+  display: none;
+  margin: 0;
+  padding: 0;
+  width: 320px;
+  background: #eae4d6;
+  left: -80px;
+//  margin-top: 10px;
+}
+
+div#second-level div#main-menu div > nav li:hover ul {
+  display: block;
+  position: absolute;
+}
+
+div#second-level div#main-menu div > nav > ul > li > ul > li {
+  position: relative;
+}
+
+
+
+

@@ -1,0 +1,115 @@
+footer {
+  background-color: #e30019;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+@media ( min-height: 950px ) { 
+  footer.footer {
+    padding-bottom: 150px;
+  }
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+body > div {
+  height: 100%;
+}
+
+body > div > div#page-wrapper {
+  height: 100%;
+}
+
+body > div > div#page-wrapper > div#page {
+  min-height: 100%;
+  display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+
+footer div.layout-container {
+  max-width: 1100px;
+  display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+
+footer {
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
+div#footer-left {
+  max-width: 50%;
+  min-width: 450px;
+  display: block;
+}
+
+div#footer-left-top {
+  display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+}
+
+div#footer-left-bottom {
+  margin-top: 10px;
+}
+
+div#footer-gnm {
+  width: 250px;
+}
+
+div#footer-contactdata {
+  width: 200px;
+}
+
+div#footer-right {
+  display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+}
+
+div#footer-right-wisski {
+  display: block;
+  max-width: 250px;
+}
+
+div#footer-right-wisski img {
+  margin: 10px;
+  margin-left: 30px;
+}

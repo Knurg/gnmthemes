@@ -1,0 +1,499 @@
+/* header should be really big */
+header {
+  width: 100%;
+  position: relative; 
+}
+
+/* any wrapper element in the header element */
+div.header-wrapper {
+}
+
+@media (min-width: 1100px) {
+  div.header-level {
+    width: 1100px;
+    position: relative;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+  }
+}
+
+@media (max-width: 1099px) {
+  div.header-level {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    margin: auto;
+  }
+}
+
+/* everything about the first level (white top bar) */
+div#first-level-wrapper {
+  position: relative;
+  background-color: white;
+  width: 100%;
+}
+
+@media (max-width: 1099px) {
+  div#first-level-wrapper {
+    line-height: 1;
+  }
+}
+
+div#first-level {
+  padding-right: 140px;
+  -webkit-box-pack: end; /* justify-content */ 
+  -webkit-box-align: end; /* align-items */ 
+  -webkit-justify-content: flex-end;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+@media (max-width: 1099px) {
+  div#first-level {
+    padding-right: 130px;
+  }
+}
+
+div#first-level button {
+  display: none;
+}
+
+/* undo what bootstrap does! */
+div#first-level .dropdown-menu {
+
+  margin: 0px;
+  display: block;
+  list-style: none;
+
+  position: relative;
+  top: initial;
+  left: initial;
+  z-index: 1000;
+  float: initial;
+  min-width: initial;
+  padding: initial;
+
+//  padding-top: 4px;
+
+  font-size: initial;
+  color: initial;
+  text-align: initial;
+  background-color: initial;
+  background-clip: initial;
+  border: initial;
+  border-radius: initial;
+  box-shadow: initial;
+}
+
+div#first-level .dropdown-menu > li > a {
+  display: initial;
+  padding: initial;
+  clear: initial;
+  font-weight: initial;
+  line-height: initial;
+  color: #e30019;
+  white-space: initial;
+}
+
+div#first-level > div {
+  padding-top: 4px;
+  float: right;
+}
+
+@media (min-width: 1100px) {
+  div#first-level > div {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+}
+
+/* the schlueppercolored bar */
+div#second-level-wrapper {
+  position: relative;
+//  background-color: #eae3d5;
+  width: 100%;
+  z-index: 1;
+}
+
+@media (min-width: 1100px) {
+  div#second-level-wrapper {
+    background-color: #eae3d5;
+  }
+}
+
+div#second-level {
+  justify-content: space-between;
+}
+
+div#second-level div#header-items {
+  width: 100%;
+}
+
+@media (min-width: 1100px) {
+  div#second-level div#header-items {
+    position: absolute;
+  }
+}
+
+@media (max-width: 1099px) {
+  div#second-level div#header-items {
+    line-height: 1;
+  }
+}
+
+/* the breadcrumb */
+div#third-level-wrapper {
+  position: relative;
+  background-color: white;
+  width: 100%;
+  max-height: 1.8em;
+}
+
+div#third-level {
+}
+
+/* GNM logo */
+div#gnm-logo {
+  max-width: 140px;
+  margin: -1.8em;
+  margin-bottom: -10px;
+}
+
+@media (max-width: 1099px) {
+  div#gnm-logo {
+    position: absolute;
+    right: 20px;
+    z-index: 1;
+    top: 6px;
+    padding-top: 2px;
+  }
+  
+  div#second-level div#gnm-logo img {
+    padding-bottom: 0px;
+    right: 0px;
+  }
+}
+
+div#gnm-logo img {
+  background-color: white;
+  padding: 10px;
+  padding-top: 8px;
+  width: 140px;
+  top: 0px;
+  position: relative;
+  right: 30px;
+}
+
+/* Navigation */
+div#second-level div#main-menu {
+  width: 960px;
+  background-color: #eae3d5;
+}
+
+@media (max-width: 1099px) {
+  div#second-level-wrapper div#second-level div#main-menu {
+    width: 100%;
+  }
+}
+
+div#second-level div#main-menu * {
+ box-sizing:content-box;
+}
+
+div#second-level div#main-menu div > nav:first-child > ul {
+  margin-top: 0px;
+}
+
+@media (min-width: 1100px) {
+
+/* What is common for all menu items? */
+div#second-level div#main-menu div > nav ul {
+  list-style-type: none;
+  padding: 0px;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 12px;
+  margin-bottom: 0px;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  margin-left: -1px;
+}
+
+div#second-level div#main-menu div > nav ul a {
+  text-decoration: none;
+  color: #464646;
+  font-weight: normal;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+body .dropdown-menu > li > a:hover, a:focus {
+  text-decoration: none;
+  color: initial;
+  background-color: initial;
+}
+/*
+@media (min-width: 1100px) {  
+*/
+  /* undo what bootstrap does in this view! */
+  div#second-level .dropdown-menu {
+    position: initial;
+    top: initial;
+    left: initial;
+    z-index: initial;
+    display: initial;
+    float: initial;
+    min-width: initial;
+    padding: initial;
+    margin: initial;
+    font-size: initial;
+    text-align: initial;
+    list-style: initial;
+    background-color: initial;
+    -webkit-background-clip: initial;
+    background-clip: initial;
+    border: initial;
+    border-radius: initial;
+    -webkit-box-shadow: initial;
+    box-shadow: initial;
+  }
+
+  div#second-level .dropdown-menu > li > a {
+    display: initial;
+    padding: initial;
+    clear: initial;
+    font-weight: initial;
+    line-height: initial;
+    color: initial;
+    white-space: initial;
+  }
+
+  /* add own display */
+  div#second-level div#main-menu div > nav div.dropdown button {
+    display: none;
+  }
+
+  div#second-level div#main-menu div > nav > div.dropdown > ul > li:first-child > a {
+    text-align: center;
+    border-left: none;
+    padding-left: 0px;
+  }
+
+  div#second-level div#main-menu div > nav > div.dropdown > ul > li {
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  /* only do that in the special case of the highest menu. */
+  div#second-level div#main-menu div > nav > div.dropdown > ul > li > a {
+    border-left: 1px solid #464646;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  div#second-level div#main-menu div > nav > div.dropdown > ul > li > ul {
+    z-index: 1000;
+    text-align: left;
+    position: absolute;
+    display: none;
+    margin: 0;
+    padding: 0;
+    width: 280px;
+    background: #eae4d6;
+    margin-left: -60px;
+    margin-top: 16px;
+  }
+
+  div#second-level div#main-menu div > nav > div.dropdown ul li:hover ul {
+    display: block;
+    position: absolute;
+  }
+
+  div#second-level div#main-menu div > nav > div.dropdown > ul > li > ul > li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    border-bottom: 1px solid #c6c1b6;
+  }
+}
+
+/* remove margin for minimal display */
+
+@media (max-width: 1200px) {
+  div#second-level div#main-menu div > nav > ul > li:first-child > ul {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 1099px) {
+
+/*
+  div#second-level div#main-menu div > nav > div > ul > li > ul {
+    display: block; 
+    position: absolute;
+    width: 100%;
+  }
+*/
+  div#second-level div#main-menu div > nav > div > ul.dropdown-menu {
+    width: 100%;
+    position: absolute;
+    border-top: 1px solid #464646;
+    margin-top: 10px;
+  }
+
+  div#second-level div#main-menu div > nav > div > ul.dropdown-menu ul {
+    width: 100%;
+    position: relative;
+    border-top: 1px solid #464646;
+  }
+
+  div#second-level div#main-menu div > nav > div > ul.dropdown-menu ul li a {
+    padding-left: 40px;
+  }
+
+  div#second-level div#main-menu .dropdown-menu > li > a {
+    display: block;
+    padding: 10px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #464646;
+    white-space: nowrap;
+    text-transform: UPPERCASE;
+  }
+
+  div#second-level div#main-menu div > nav > div > ul button {
+    position: absolute;
+    right: 0px;
+    margin-top: -34px;
+  }
+
+  ul.dropdown-menu {
+    display: none;
+  }
+
+  div#second-level div#main-menu .dropdown-menu {
+    position: relative;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    float: initial;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #eae3d5;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: initial;
+    border-radius: initial;
+    -webkit-box-shadow: initial;
+    box-shadow: initial;
+  }
+
+  div#second-level div#main-menu div > nav > div > button {
+    font-family: "corpos";
+    background-image: url("/themes/gnm2018/images/mobile_menu.svg");
+    background-position: left 1px top 9px;
+    background-repeat: no-repeat;
+    padding-left: 41px;
+    padding-top: 5px;
+    font-size: 2rem;
+    background-size: 30px;
+  }
+
+  div#second-level div#main-menu div > nav > div > button > span.glyphicon {
+    display: none;
+  }
+
+  div#second-level div#main-menu div > nav > div > ul li button span.button-text {
+    display: none;
+  }
+
+  div#second-level div#main-menu div > nav > div > ul li  {
+    border-bottom: 1px solid #464646;
+  }
+
+  div#second-level div#main-menu div > nav > div > ul li:last-child {
+    border-bottom: initial;
+  }
+
+  div#second-level div#main-menu div > nav > .dropdown {
+    margin-top: 5px;
+  }
+
+  div#second-level div#main-menu div > nav > div .btn-default {
+    color: initial;
+    background-color: initial;
+    border-color: initial;
+  }
+
+  div#second-level div#main-menu div > nav > div .btn {
+    display: initial;
+    margin-bottom: initial;
+    font-weight: initial;
+    line-height: initial;
+    text-align: initial;
+    white-space: initial;
+    vertical-align: initial;
+    -ms-touch-action: initial;
+    touch-action: initial;
+    cursor: initial;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: initial;
+    border-radius: initial;
+  }
+
+}
+
+
+/* Third level for breadcrumbs */
+div#third-level-wrapper > div#third-level > div > ol {
+  display: inline-block;
+  padding: 0px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+/* deactivate what came from bootstrap */
+div#third-level-wrapper > div#third-level > div ol.breadcrumb {
+  padding: initial;
+  margin-bottom: initial;
+  list-style: none;
+  background-color: initial;
+  border-radius: initial;
+}
+
+div#third-level-wrapper > div#third-level > div ol li {
+  display: inline-block;
+  max-width: 500px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+div#third-level-wrapper .breadcrumb > .active {
+    color: #464646;
+}
+

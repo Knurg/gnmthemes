@@ -1,0 +1,690 @@
+layout_twocol_990px_onesidebar:
+  label: 'Two column, one sidebar (990px)'
+  path: layouts/twocol/990px
+  template: layout--twocol--990px--onesidebar
+  library: layout_discovery/twocol
+  category: 'Columns: 2'
+  default_region: first
+  icon_map:
+    - [title]
+    - [top]
+    - [first, second]
+    - [bottom]
+  regions:
+    title:
+      label: Title
+    top:
+      label: Top
+    first:
+      label: First
+    second:
+      label: Second
+    bottom:
+      label: Bottom
+
+layout_twocol_990px_twosidebars:
+  label: 'Two column, two sidebars (990px)'
+  path: layouts/twocol/990px
+  template: layout--twocol--990px--twosidebars
+  library: layout_discovery/twocol
+  category: 'Columns: 2'
+  default_region: first
+  icon_map:
+    - [title]
+    - [top]
+    - [first, second]
+    - [bottom]
+  regions:
+    title:
+      label: Title
+    top:
+      label: Top
+    first:
+      label: First
+    second:
+      label: Second
+    bottom:
+      label: Bottom
+
+layout_twocol_990px_nosidebar:
+  label: 'Two column, no sidebar (990px)'
+  path: layouts/twocol/990px
+  template: layout--twocol--990px--nosidebar
+  library: layout_discovery/twocol
+  category: 'Columns: 2'
+  default_region: first
+  icon_map:
+    - [title]
+    - [top]
+    - [first, second]
+    - [bottom]
+  regions:
+    title:
+      label: Title
+    top:
+      label: Top
+    first:
+      label: First
+    second:
+      label: Second
+    bottom:
+      label: Bottom
+
+layout_twocol_1100px_onesidebar:
+  label: 'Two column, one sidebar (1100px)'
+  path: layouts/twocol/1100px
+  template: layout--twocol--1100px--onesidebar
+  library: layout_discovery/twocol
+  category: 'Columns: 2'
+  default_region: first
+  icon_map:
+    - [title]
+    - [top]
+    - [first, second]
+    - [bottom]
+  regions:
+    title:
+      label: Title
+    top:
+      label: Top
+    first:
+      label: First
+    second:
+      label: Second
+    bottom:
+      label: Bottom
+
+layout_twocol_1100px_twosidebars:
+  label: 'Two column, two sidebars (1100px)'
+  path: layouts/twocol/1100px
+  template: layout--twocol--1100px--twosidebars
+  library: layout_discovery/twocol
+  category: 'Columns: 2'
+  default_region: first
+  icon_map:
+    - [title]
+    - [top]
+    - [first, second]
+    - [bottom]
+  regions:
+    title:
+      label: Title
+    top:
+      label: Top
+    first:
+      label: First
+    second:
+      label: Second
+    bottom:
+      label: Bottom
+
+layout_twocol_1100px_nosidebar:
+  label: 'Two column, no sidebar (1100px)'
+  path: layouts/twocol/1100px
+  template: layout--twocol--1100px--nosidebar
+  library: layout_discovery/twocol
+  category: 'Columns: 2'
+  default_region: first
+  icon_map:
+    - [title]
+    - [top]
+    - [first, second]
+    - [bottom]
+  regions:
+    title:
+      label: Title
+    top:
+      label: Top
+    first:
+      label: First
+    second:
+      label: Second
+    bottom:
+      label: Bottom
+
+layout_twocol_1300px_onesidebar:
+  label: 'Two column, one sidebar (1300px)'
+  path: layouts/twocol/1300px
+  template: layout--twocol--1300px--onesidebar
+  library: layout_discovery/twocol
+  category: 'Columns: 2'
+  default_region: first
+  icon_map:
+    - [title]
+    - [top]
+    - [first, second]
+    - [bottom]
+  regions:
+    title:
+      label: Title
+    top:
+      label: Top
+    first:
+      label: First
+    second:
+      label: Second
+    bottom:
+      label: Bottom
+
+layout_twocol_1300px_twosidebars:
+  label: 'Two column, two sidebars (1300px)'
+  path: layouts/twocol/1300px
+  template: layout--twocol--1300px--twosidebars
+  library: layout_discovery/twocol
+  category: 'Columns: 2'
+  default_region: first
+  icon_map:
+    - [title]
+    - [top]
+    - [first, second]
+    - [bottom]
+  regions:
+    title:
+      label: Title
+    top:
+      label: Top
+    first:
+      label: First
+    second:
+      label: Second
+    bottom:
+      label: Bottom
+
+layout_twocol_1300px_nosidebar:
+  label: 'Two column, no sidebar (1300px)'
+  path: layouts/twocol/1300px
+  template: layout--twocol--1300px--nosidebar
+  library: layout_discovery/twocol
+  category: 'Columns: 2'
+  default_region: first
+  icon_map:
+    - [title]
+    - [top]
+    - [first, second]
+    - [bottom]
+  regions:
+    title:
+      label: Title
+    top:
+      label: Top
+    first:
+      label: First
+    second:
+      label: Second
+    bottom:
+      label: Bottom
+
+layout_twocol_1500px_onesidebar:
+  label: 'Two column, one sidebar (1500px)'
+  path: layouts/twocol/1500px
+  template: layout--twocol--1500px--onesidebar
+  library: layout_discovery/twocol
+  category: 'Columns: 2'
+  default_region: first
+  icon_map:
+    - [title]
+    - [top]
+    - [first, second]
+    - [bottom]
+  regions:
+    title:
+      label: Title
+    top:
+      label: Top
+    first:
+      label: First
+    second:
+      label: Second
+    bottom:
+      label: Bottom
+
+layout_twocol_1500px_twosidebars:
+  label: 'Two column, two sidebars (1500px)'
+  path: layouts/twocol/1500px
+  template: layout--twocol--1500px--twosidebars
+  library: layout_discovery/twocol
+  category: 'Columns: 2'
+  default_region: first
+  icon_map:
+    - [title]
+    - [top]
+    - [first, second]
+    - [bottom]
+  regions:
+    title:
+      label: Title
+    top:
+      label: Top
+    first:
+      label: First
+    second:
+      label: Second
+    bottom:
+      label: Bottom
+
+layout_twocol_1500px_nosidebar:
+  label: 'Two column, no sidebar (1500px)'
+  path: layouts/twocol/1500px
+  template: layout--twocol--1500px--nosidebar
+  library: layout_discovery/twocol
+  category: 'Columns: 2'
+  default_region: first
+  icon_map:
+    - [title]
+    - [top]
+    - [first, second]
+    - [bottom]
+  regions:
+    title:
+      label: Title
+    top:
+      label: Top
+    first:
+      label: First
+    second:
+      label: Second
+    bottom:
+      label: Bottom
+
+layout_twocol_fullpx_onesidebar:
+  label: 'Two column, one sidebar (fullpx)'
+  path: layouts/twocol/fullpx
+  template: layout--twocol--fullpx--onesidebar
+  library: layout_discovery/twocol
+  category: 'Columns: 2'
+  default_region: first
+  icon_map:
+    - [title]
+    - [top]
+    - [first, second]
+    - [bottom]
+  regions:
+    title:
+      label: Title
+    top:
+      label: Top
+    first:
+      label: First
+    second:
+      label: Second
+    bottom:
+      label: Bottom
+
+layout_twocol_fullpx_twosidebars:
+  label: 'Two column, two sidebars (fullpx)'
+  path: layouts/twocol/fullpx
+  template: layout--twocol--fullpx--twosidebars
+  library: layout_discovery/twocol
+  category: 'Columns: 2'
+  default_region: first
+  icon_map:
+    - [title]
+    - [top]
+    - [first, second]
+    - [bottom]
+  regions:
+    title:
+      label: Title
+    top:
+      label: Top
+    first:
+      label: First
+    second:
+      label: Second
+    bottom:
+      label: Bottom
+
+layout_twocol_fullpx_nosidebar:
+  label: 'Two column, no sidebar (fullpx)'
+  path: layouts/twocol/fullpx
+  template: layout--twocol--fullpx--nosidebar
+  library: layout_discovery/twocol
+  category: 'Columns: 2'
+  default_region: first
+  icon_map:
+    - [title]
+    - [top]
+    - [first, second]
+    - [bottom]
+  regions:
+    title:
+      label: Title
+    top:
+      label: Top
+    first:
+      label: First
+    second:
+      label: Second
+    bottom:
+      label: Bottom
+
+layout_onecol_990px_onesidebar:
+  label: 'One column, one sidebar (990px)'
+  path: layouts/onecol/990px
+  template: layout--onecol--990px--onesidebar
+  library: layout_discovery/onecol
+  category: 'Columns: 1'
+  default_region: center
+  icon_map:
+    - [title]
+    - [top]
+    - [center]
+    - [bottom]
+  regions:
+    title:
+      label: Title
+    top:
+      label: Top
+    center:
+      label: Center
+    bottom:
+      label: Bottom
+
+layout_onecol_990px_twosidebars:
+  label: 'One column, two sidebars (990px)'
+  path: layouts/onecol/990px
+  template: layout--onecol--990px--twosidebars
+  library: layout_discovery/onecol
+  category: 'Columns: 1'
+  default_region: center
+  icon_map:
+    - [title]
+    - [top]
+    - [center]
+    - [bottom]
+  regions:
+    title:
+      label: Title
+    top:
+      label: Top
+    center:
+      label: Center
+    bottom:
+      label: Bottom
+
+layout_onecol_990px_nosidebar:
+  label: 'One column, no sidebar (990px)'
+  path: layouts/onecol/990px
+  template: layout--onecol--990px--nosidebar
+  library: layout_discovery/onecol
+  category: 'Columns: 1'
+  default_region: center
+  icon_map:
+    - [title]
+    - [top]
+    - [center]
+    - [bottom]
+  regions:
+    title:
+      label: Title
+    top:
+      label: Top
+    center:
+      label: Center
+    bottom:
+      label: Bottom
+
+layout_onecol_1100px_onesidebar:
+  label: 'One column, one sidebar (1100px)'
+  path: layouts/onecol/1100px
+  template: layout--onecol--1100px--onesidebar
+  library: layout_discovery/onecol
+  category: 'Columns: 1'
+  default_region: center
+  icon_map:
+    - [title]
+    - [top]
+    - [center]
+    - [bottom]
+  regions:
+    title:
+      label: Title
+    top:
+      label: Top
+    center:
+      label: Center
+    bottom:
+      label: Bottom
+
+layout_onecol_1100px_twosidebars:
+  label: 'One column, two sidebars (1100px)'
+  path: layouts/onecol/1100px
+  template: layout--onecol--1100px--twosidebars
+  library: layout_discovery/onecol
+  category: 'Columns: 1'
+  default_region: center
+  icon_map:
+    - [title]
+    - [top]
+    - [center]
+    - [bottom]
+  regions:
+    title:
+      label: Title
+    top:
+      label: Top
+    center:
+      label: Center
+    bottom:
+      label: Bottom
+
+layout_onecol_1100px_nosidebar:
+  label: 'One column, no sidebar (1100px)'
+  path: layouts/onecol/1100px
+  template: layout--onecol--1100px--nosidebar
+  library: layout_discovery/onecol
+  category: 'Columns: 1'
+  default_region: center
+  icon_map:
+    - [title]
+    - [top]
+    - [center]
+    - [bottom]
+  regions:
+    title:
+      label: Title
+    top:
+      label: Top
+    center:
+      label: Center
+    bottom:
+      label: Bottom
+
+layout_onecol_1300px_onesidebar:
+  label: 'One column, one sidebar (1300px)'
+  path: layouts/onecol/1300px
+  template: layout--onecol--1300px--onesidebar
+  library: layout_discovery/onecol
+  category: 'Columns: 1'
+  default_region: center
+  icon_map:
+    - [title]
+    - [top]
+    - [center]
+    - [bottom]
+  regions:
+    title:
+      label: Title
+    top:
+      label: Top
+    center:
+      label: Center
+    bottom:
+      label: Bottom
+
+layout_onecol_1300px_twosidebars:
+  label: 'One column, two sidebars (1300px)'
+  path: layouts/onecol/1300px
+  template: layout--onecol--1300px--twosidebars
+  library: layout_discovery/onecol
+  category: 'Columns: 1'
+  default_region: center
+  icon_map:
+    - [title]
+    - [top]
+    - [center]
+    - [bottom]
+  regions:
+    title:
+      label: Title
+    top:
+      label: Top
+    center:
+      label: Center
+    bottom:
+      label: Bottom
+
+layout_onecol_1300px_nosidebar:
+  label: 'One column, no sidebar (1300px)'
+  path: layouts/onecol/1300px
+  template: layout--onecol--1300px--nosidebar
+  library: layout_discovery/onecol
+  category: 'Columns: 1'
+  default_region: center
+  icon_map:
+    - [title]
+    - [top]
+    - [center]
+    - [bottom]
+  regions:
+    title:
+      label: Title
+    top:
+      label: Top
+    center:
+      label: Center
+    bottom:
+      label: Bottom
+
+layout_onecol_1500px_onesidebar:
+  label: 'One column, one sidebar (1500px)'
+  path: layouts/onecol/1500px
+  template: layout--onecol--1500px--onesidebar
+  library: layout_discovery/onecol
+  category: 'Columns: 1'
+  default_region: center
+  icon_map:
+    - [title]
+    - [top]
+    - [center]
+    - [bottom]
+  regions:
+    title:
+      label: Title
+    top:
+      label: Top
+    center:
+      label: Center
+    bottom:
+      label: Bottom
+
+layout_onecol_1500px_twosidebars:
+  label: 'One column, two sidebars (1500px)'
+  path: layouts/onecol/1500px
+  template: layout--onecol--1500px--twosidebars
+  library: layout_discovery/onecol
+  category: 'Columns: 1'
+  default_region: center
+  icon_map:
+    - [title]
+    - [top]
+    - [center]
+    - [bottom]
+  regions:
+    title:
+      label: Title
+    top:
+      label: Top
+    center:
+      label: Center
+    bottom:
+      label: Bottom
+
+layout_onecol_1500px_nosidebar:
+  label: 'One column, no sidebar (1500px)'
+  path: layouts/onecol/1500px
+  template: layout--onecol--1500px--nosidebar
+  library: layout_discovery/onecol
+  category: 'Columns: 1'
+  default_region: center
+  icon_map:
+    - [title]
+    - [top]
+    - [center]
+    - [bottom]
+  regions:
+    title:
+      label: Title
+    top:
+      label: Top
+    center:
+      label: Center
+    bottom:
+      label: Bottom
+
+layout_onecol_fullpx_onesidebar:
+  label: 'One column, one sidebar (fullpx)'
+  path: layouts/onecol/fullpx
+  template: layout--onecol--fullpx--onesidebar
+  library: layout_discovery/onecol
+  category: 'Columns: 1'
+  default_region: center
+  icon_map:
+    - [title]
+    - [top]
+    - [center]
+    - [bottom]
+  regions:
+    title:
+      label: Title
+    top:
+      label: Top
+    center:
+      label: Center
+    bottom:
+      label: Bottom
+
+layout_onecol_fullpx_twosidebars:
+  label: 'One column, two sidebars (fullpx)'
+  path: layouts/onecol/fullpx
+  template: layout--onecol--fullpx--twosidebars
+  library: layout_discovery/onecol
+  category: 'Columns: 1'
+  default_region: center
+  icon_map:
+    - [title]
+    - [top]
+    - [center]
+    - [bottom]
+  regions:
+    title:
+      label: Title
+    top:
+      label: Top
+    center:
+      label: Center
+    bottom:
+      label: Bottom
+
+layout_onecol_fullpx_nosidebar:
+  label: 'One column, no sidebar (fullpx)'
+  path: layouts/onecol/fullpx
+  template: layout--onecol--fullpx--nosidebar
+  library: layout_discovery/onecol
+  category: 'Columns: 1'
+  default_region: center
+  icon_map:
+    - [title]
+    - [top]
+    - [center]
+    - [bottom]
+  regions:
+    title:
+      label: Title
+    top:
+      label: Top
+    center:
+      label: Center
+    bottom:
+      label: Bottom
+

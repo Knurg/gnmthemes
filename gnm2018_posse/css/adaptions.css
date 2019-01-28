@@ -1,0 +1,161 @@
+div.field--name-ffc23fa047189b1a762a5aa0d4046b08 {
+  float: right;
+}
+
+
+/* Editor styles */
+
+span.ueberschreibung, span.unleserlich, span.unsichere_lesung,
+span.einfuegung, span.skizze, span.graphische_auszeichnung,
+span.fremdtext_archivintern, span.fremdtext_dritte,
+span.fremdtext_vorgedrucktes {
+    border-style: dotted;
+    border-width: 2px;
+    border-color: rgb(200,200,200);
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.cke_editable span.ueberschreibung, .cke_editable span.unleserlich, .cke_editable span.unsichere_lesung,
+.cke_editable span.einfuegung, .cke_editable span.skizze, .cke_editable span.graphische_auszeichnung,
+.cke_editable span.fremdtext_archivintern, .cke_editable
+span.fremdtext_dritte, .cke_editable span.fremdtext_vorgedrucktes {
+    border-style: dotted;
+    border-width: 2px;
+    border-color: black;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+span.fehlseiten, span.editorenkommentar {
+    font-style: italic;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: rgb(200,200,200);
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.cke_editable span.fehlseiten, .cke_editable span.editorenkommentar {
+    font-style: italic;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: black;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+span.ueberschreibung::before {
+    font-style: italic;
+    content: "[\0000DCberschrieben: ";
+}
+
+span.ueberschreibung::after, span.unleserlich::after, span.einfuegung::after {
+    font-style: italic;
+    content: "]";
+}
+
+span.unleserlich::before {
+    font-style: italic;
+    content: "[Unleserlich: ";
+}
+
+span.unsichere_lesung::after {
+    font-style: italic;
+    content: " [?]";
+}
+
+span.einfuegung::before {
+    font-style: italic;
+    content: "[Einf\0000fcgung: ";
+}
+
+span.skizze::before {
+    font-style: italic;
+    content: "[Skizze]";
+}
+
+span.fehlseiten::before {
+    font-style: italic;
+    content: "[Es folgen ";
+}
+
+span.fehlseiten::after {
+    font-style: italic;
+    content: " Fehlseiten]";
+}
+
+span.anstreichung {
+    border-left: 2px solid grey;
+    display: inline-block;
+    padding-left: 5px;
+}
+
+span.durchstreichung_absatz {
+    position: relative;
+    display: inline-block;
+    background-image: linear-gradient(to bottom right,  transparent calc(50% - 1px), black, transparent calc(50% + 1px));
+}
+
+span.trennstrich {
+    content: "";
+    width: 30%;
+    display: inline-block;
+    position: relative;
+}
+
+span.trennstrich::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0.7em;
+    left: 0;
+    #transform: skewY(-7deg);
+    width: 100%;
+    height: 1px;
+    background: #000;
+}
+
+span.einrueckung_relativ {
+    display: inline-block;
+    padding-left: 2em;
+}
+
+span.fremdtext_archivintern::after {
+    font-style: italic;
+    content: " [andere Hand archivintern]";
+}
+
+span.fremdtext_dritte::after {
+    font-style: italic;
+    content: " [andere Hand]";
+}
+
+span.fremdtext_vorgedrucktes::after {
+    font-style: italic;
+    content: " [Fremdtext vorgedruckt]";
+}
+
+span.editorenkommentar::before {
+    content: "[";
+    font-style: italic;
+}
+
+span.editorenkommentar::after {
+    content: "]";
+    font-style: italic;
+}
+
+.field__item p {
+    margin-bottom: 0;
+}
+
+.cke_editable p {
+    margin-bottom: 0;
+}
+
+.field--name-fb287a02fa5f8d22b89f391fd8b86834 .field__item p::after {
+    font-style: italic;
+    content: " /";
+    opacity: 0.3;
+}

@@ -1,0 +1,233 @@
+/* header should be really big */
+header {
+  width: 100%;
+  position: relative; 
+}
+
+/* any wrapper element in the header element */
+div.header-wrapper {
+}
+
+div.header-level {
+  width: 1100px;
+  position: relative;
+  display: flex;
+  margin: auto;
+}
+
+/* everything about the first level (white top bar) */
+div#first-level-wrapper {
+  position: relative;
+  background-color: white;
+  width: 100%;
+  height: 1.8em;
+}
+
+div#first-level {
+  width: 780px;
+  justify-content: flex-end;
+}
+
+div#first-level ul {
+  margin: 0px;
+  display: block;
+  list-style: none;
+  padding-top: 4px;
+}
+
+div#first-level > div {
+  float: right;
+}
+
+/* the schlueppercolored bar */
+div#second-level-wrapper {
+  position: relative;
+  background-color: #eae3d5;
+  width: 100%;
+  height: 3em;
+  z-index: 100;
+}
+
+div#second-level {
+  height: 50px;
+  justify-content: space-between;
+}
+
+/* the breadcrumb */
+div#third-level-wrapper {
+  position: relative;
+  background-color: white;
+  width: 100%;
+  max-height: 1.8em;
+}
+
+div#third-level {
+}
+
+/* GNM logo */
+div#gnm-logo {
+  max-width: 160px;
+}
+
+div#gnm-logo img {
+  background-color: white;
+  padding: 10px;
+  width: 140px;
+  top: -1.8em;
+  position: relative;
+}
+
+/* Navigation */
+
+div#second-level div#main-menu {
+  width: 100%;
+}
+
+div#second-level div#main-menu * {
+ box-sizing:content-box;
+}
+
+div#second-level div#main-menu div > nav ul {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 12px;
+  margin-bottom: 0px;
+  justify-content: flex-start;
+  margin-left: -1px;
+}
+
+div#second-level div#main-menu div > nav > ul > li:first-child > a {
+  text-align: center;
+  border-left: none;
+  padding-left: 0px;
+}
+
+
+div#second-level div#main-menu div > nav > ul > li {
+  text-align: center;
+  padding-right: 20px;
+  padding-bottom: 15px;
+}
+
+/* only do that in the special case of the highest menu. */
+div#second-level div#main-menu div > nav > ul > li > a {
+  border-left: 1px solid #464646;
+  padding-left: 20px;
+}
+
+div#second-level div#main-menu div > nav ul a {
+  text-decoration: none;
+  color: #464646;
+  font-weight: normal;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+
+div#second-level div#main-menu div > nav > ul > li > ul {
+  z-index: 10;
+  text-align: left;
+  position: absolute;
+  z-index: 2;
+  display: none;
+  margin: 0;
+  padding: 0;
+  width: 280px;
+  background: #eae4d6;
+//  left: -80px;
+  margin-left: -80px;
+  margin-top: 15px;
+}
+
+div#second-level div#main-menu div > nav li:hover ul {
+  display: block;
+  position: absolute;
+}
+
+div#second-level div#main-menu div > nav > ul > li > ul > li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  border-bottom: 1px solid #c6c1b6;
+}
+
+
+/* Mobile Navigation */
+
+/* @media (max-width: 1100px) {
+  nav#block-gnm2018-menuhalfpastthreegrainpresentation {
+    display: none;
+  }
+}
+*/
+
+@media (min-width: 1101px) {
+  nav#block-gnm2018-menuhalfpastthreegrainpresentation > ul > li > a {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 1100px) {
+  div#second-level div#main-menu div > nav#block-gnm2018-menuhalfpastthreegrainpresentation > ul > li > ul {
+    display: block; 
+    position: absolute;
+    width: 100%;
+  }
+}
+
+
+/* remove margin for minimal display */
+
+@media (max-width: 1200px) {
+  div#second-level div#main-menu div > nav > ul > li:first-child > ul {
+    margin-left: 0px;
+  }
+}
+
+
+@media (max-width: 1100px) {
+  div#second-level div#main-menu div > nav#block-gnm2018-menuhalfpastthreegrainpresentation > ul > li > a {
+    font-family: "corpos";
+    background-image: url("/themes/gnm2018/images/mobile_menu.svg");
+    background-position: left 20px top 9px;
+    background-repeat: no-repeat;
+    padding-left: 60px;
+    font-size: 1.7rem;
+    background-size: 30px;
+  }
+}
+
+@media (max-width: 1100px) {
+  div#second-level div#main-menu div >nav#block-gnm2018-menuhalfpastthreegrainpresentation > ul {
+    margin-top: 6px;
+}
+
+
+/* Third level for breadcrumbs */
+div#third-level-wrapper > div#third-level > div > div#block-gnm2018-breadcrumbs > nav > ol {
+  display: inline-block;
+  padding: 0px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+div#third-level-wrapper > div#third-level > div > div#block-gnm2018-breadcrumbs > nav > ol li {
+  display: inline;
+}
+
+div#third-level-wrapper > div#third-level > div > div#block-gnm2018-breadcrumbs > nav > ol li:before {
+  content: '/';
+}
+
+div#third-level-wrapper > div#third-level > div > div#block-gnm2018-breadcrumbs > nav > ol li:first-child:before {
+  content: '';
+}
+
+
+
+

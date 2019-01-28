@@ -1,0 +1,18 @@
+html body {
+  margin: 0px;
+  font-family: "corpos",Arial,Helvetica,sans-serif;
+  font-size: initial;
+  font-weight: initial;
+  line-height: initial;
+  color: #464646;
+  text-align: initial;
+  background-color: #fff;
+}
+
+body a {
+  color: #e30019;
+  text-decoration: none;
+}
+
+
+
