@@ -6,9 +6,9 @@ div#main-wrapper {
 
 main#content {
   position: relative;
-  width: 100%;
+  max-width: 100%;
 }
 
 div#main {
-  width: 100%;
+  max-width: 100%;
 }
