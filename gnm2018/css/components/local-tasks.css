@@ -61,7 +61,7 @@ nav.tabs ul li:last-child {
 
 nav.tabs:hover {
   background: none;
-  right: 150px;
+  right: 120px;
 }
 
 nav.tabs:hover ul {
