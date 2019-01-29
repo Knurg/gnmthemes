@@ -1,6 +1,6 @@
 <?php
 
-function halfpastthreegrain_preprocess_field(&$variables, $hook) {
+function gnm2018_provenienz_preprocess_field(&$variables, $hook) {
 #  dpm(serialize($variable), "yay!");
 
   $element = $variables['element'];
@@ -82,10 +82,18 @@ function halfpastthreegrain_preprocess_field(&$variables, $hook) {
 
 
 
-
+/*
 function halfpastthreegrain_theme_suggestions_block_alter(array &$suggestions, array $variables) {
     // Block suggestions for custom block bundles.
     if (isset($variables['elements']['content']['#block_content'])) {
         array_splice($suggestions, 1, 0, 'block__bundle__' . $variables['elements']['content']['#block_content']->bundle());
     }
+}
+*/
+
+function gnm2018_provenienz_preprocess_breadcrumb(&$variables) {
+
+  // hide "navigate"
+  if($variables['breadcrumb'][1]['url'] == "/wisski/navigate")
+    unset($variables['breadcrumb'][1]);
 }

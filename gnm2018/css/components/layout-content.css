@@ -241,6 +241,7 @@ div.layout--twocol--1500px--two {
 
 div.layout--1500px--none {
   max-width: 1500px;
+  margin: auto;
 }
 
 div.layout--1500px--one {
@@ -253,6 +254,7 @@ div.layout--1500px--two {
 
 div.layout--1300px--none {
   max-width: 1300px;
+  margin: auto;
 }
 
 div.layout--1300px--one {
@@ -265,6 +267,7 @@ div.layout--1300px--two {
 
 div.layout--1100px--none {
   max-width: 1100px;
+  margin: auto;
 }
 
 div.layout--1100px--one {
@@ -291,6 +294,7 @@ div.layout--fullpx--two {
 
 div.layout--990px--none {
   max-width: 990px;
+  margin: auto;
 }
 
 div.layout--990px--one {

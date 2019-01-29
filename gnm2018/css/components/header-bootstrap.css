@@ -66,7 +66,7 @@ div#first-level button {
 div#first-level .dropdown-menu {
 
   margin: 0px;
-  display: block;
+  display: flex;
   list-style: none;
 
   position: relative;
@@ -92,6 +92,7 @@ div#first-level .dropdown-menu {
 div#first-level .dropdown-menu > li > a {
   display: initial;
   padding: initial;
+  padding-left: 10px;
   clear: initial;
   font-weight: initial;
   line-height: initial;

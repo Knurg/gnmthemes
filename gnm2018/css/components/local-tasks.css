@@ -13,7 +13,7 @@ nav.tabs:before {
 
 nav.tabs {
   position: absolute;
-  right: -10px;
+  right: 35px;
   top: 10px;
   z-index: 0;
 }
@@ -23,21 +23,21 @@ nav.tabs ul {
   display: none;
   position: absolute;
   list-style: none;
-  background-color: #f2f2f2;
+  background-color: #464646;
   padding: 0px;
   margin: 0px;
-  border-radius: 5px;
+//  border-radius: 5px;
 }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus, .nav-tabs > li > a:hover {
-  color: #464646;
+  color: #f2f2f2;
   cursor: default;
-  background-color: #f2f2f2;
+  background-color: #464646;
   border: none;
 }
 
 .nav-tabs > li > a:hover, .nav-tabs > li > a {
-  background-color: #f2f2f2;
+  background-color: #464646;
   border: none;
   text-transform: UPPERCASE;
 }
@@ -51,7 +51,7 @@ nav.tabs ul li {
   padding-right: 20px;
   padding-top: 2px;
   padding-bottom: 2px;
-  border-bottom: 1px solid #464646;
+  border-bottom: 1px solid #f2f2f2;
   width: 100%;
 }
 
@@ -61,7 +61,7 @@ nav.tabs ul li:last-child {
 
 nav.tabs:hover {
   background: none;
-  right: 50px;
+  right: 150px;
 }
 
 nav.tabs:hover ul {

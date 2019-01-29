@@ -3,3 +3,4 @@ provenienz_adaptions:
   css:
     theme:
       css/adaptions.css: {}  
+      css/slider.css: {}

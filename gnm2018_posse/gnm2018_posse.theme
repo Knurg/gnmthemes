@@ -60,11 +60,8 @@ function gnm2018_posse_preprocess_field(&$variables, $hook) {
 }
 
 function gnm2018_posse_preprocess_breadcrumb(&$variables) {
-  //dpm($variables, "var");
 
   // hide "navigate"
-
   if($variables['breadcrumb'][1]['url'] == "/wisski/navigate") 
     unset($variables['breadcrumb'][1]);
-
 }
