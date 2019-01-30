@@ -12,22 +12,30 @@ div.layout div.layout__region--combined div.layout__region--first > div.field--t
   grid-column-end: 6;
 }
 
-div.layout div.layout__region--combined div.layout__region--first > div.field--type-string > div.field--label {
+/* ABOVE = INLINE - WITH LABEL! */
+div.layout div.layout__region--combined div.layout__region--first > div.field--type-string.field--label-above > div.field--label {
   display: block;
   grid-column-start: 1;
   grid-column-end: 2;
   padding-right: 15px;
 }
 
-div.layout div.layout__region--combined div.layout__region--first > div.field--type-string > div.field--items {
+div.layout div.layout__region--combined div.layout__region--first > div.field--type-string.field--label-above > div.field--items {
   display: block;
   grid-column-start: 2;
   grid-column-end: 6;
 }
 
-div.layout div.layout__region--combined div.layout__region--first > div.field--type-string > div.field--item {
+div.layout div.layout__region--combined div.layout__region--first > div.field--type-string.field--label-above > div.field--item {
   display: block;
   grid-column-start: 2;
+  grid-column-end: 6;
+}
+
+/* NO LABEL? */
+div.layout div.layout__region--combined div.layout__region--first > div.field--label-hidden  {
+  display: block;
+  grid-column-start: 1;
   grid-column-end: 6;
 }
 
@@ -37,20 +45,20 @@ div.layout div.layout__region--combined div.layout__region--first > div.field--t
   grid-column-end: 6;
 }
 
-div.layout div.layout__region--combined div.layout__region--first > div.field--type-link > div.field--label {
+div.layout div.layout__region--combined div.layout__region--first > div.field--type-link.field--label-above > div.field--label {
   display: block;
   grid-column-start: 1;
   grid-column-end: 2;
   padding-right: 15px;
 }
 
-div.layout div.layout__region--combined div.layout__region--first > div.field--type-link > div.field--items {
+div.layout div.layout__region--combined div.layout__region--first > div.field--type-link.field--label-above > div.field--items {
   display: block;
   grid-column-start: 2;
   grid-column-end: 6;
 }
 
-div.layout div.layout__region--combined div.layout__region--first > div.field--type-link > div.field--item {
+div.layout div.layout__region--combined div.layout__region--first > div.field--type-link.field--label-above > div.field--item {
   display: block;
   grid-column-start: 2;
   grid-column-end: 6;
@@ -62,19 +70,19 @@ div.layout div.layout__region--combined div.layout__region--first div.field--typ
   grid-column-end: 6;
 }
 
-div.layout div.layout__region--combined div.layout__region--first div.field--type-entity-reference > div.field--label {
+div.layout div.layout__region--combined div.layout__region--first div.field--type-entity-reference.field--label-above > div.field--label {
   display: block;
   grid-column-start: 1;
   grid-column-end: 2;
 }
 
-div.layout div.layout__region--combined div.layout__region--first div.field--type-entity-reference > div.field--item {
+div.layout div.layout__region--combined div.layout__region--first div.field--type-entity-reference.field--label-above > div.field--item {
   display: block;
   grid-column-start: 2;
   grid-column-end: 6;
 }
 
-div.layout div.layout__region--combined div.layout__region--first div.field--type-entity-reference > div.field--items {
+div.layout div.layout__region--combined div.layout__region--first div.field--type-entity-reference.field--label-above > div.field--items {
   display: block;
   grid-column-start: 2;
   grid-column-end: 6;
@@ -98,20 +106,20 @@ div.layout div.layout__region--combined div.layout__region--first div.field--typ
   grid-column-end: 6;
 }
 
-div.layout div.layout__region--combined div.layout__region--first div.field--type-entity-reference div.layout--onecol div.layout__region div.field--type-string div.field--label {
+div.layout div.layout__region--combined div.layout__region--first div.field--type-entity-reference div.layout--onecol div.layout__region div.field--type-string.field--label-above div.field--label {
   display: block;
   grid-column-start: 1;
   grid-column-end: 2;
   padding-right: 15px;
 }
 
-div.layout div.layout__region--combined div.layout__region--first div.field--type-entity-reference div.layout--onecol div.layout__region div.field--type-string div.field--items {
+div.layout div.layout__region--combined div.layout__region--first div.field--type-entity-reference div.layout--onecol div.layout__region div.field--type-string.field--label-above div.field--items {
   display: block;
   grid-column-start: 2;
   grid-column-end: 6;
 }
 
-div.layout div.layout__region--combined div.layout__region--first div.field--type-entity-reference div.layout--onecol div.layout__region div.field--type-string div.field--item {
+div.layout div.layout__region--combined div.layout__region--first div.field--type-entity-reference div.layout--onecol div.layout__region div.field--type-string.field--label-above div.field--item {
   display: block;
   grid-column-start: 2;
   grid-column-end: 6;
@@ -129,20 +137,20 @@ div.layout div.layout__region--combined div.layout__region--second > div.field--
   grid-column-end: 6;
 }
 
-div.layout div.layout__region--combined div.layout__region--second > div.field--type-string > div.field--label {
+div.layout div.layout__region--combined div.layout__region--second > div.field--type-string.field--label-above > div.field--label {
   display: block;
   grid-column-start: 1;
   grid-column-end: 2;
   padding-right: 15px;
 }
 
-div.layout div.layout__region--combined div.layout__region--second > div.field--type-string > div.field--items {
+div.layout div.layout__region--combined div.layout__region--second > div.field--type-string.field--label-above > div.field--items {
   display: block;
   grid-column-start: 2;
   grid-column-end: 6;
 }
 
-div.layout div.layout__region--combined div.layout__region--second > div.field--type-string > div.field--item {
+div.layout div.layout__region--combined div.layout__region--second > div.field--type-string.field--label-above > div.field--item {
   display: block;
   grid-column-start: 2;
   grid-column-end: 6;
@@ -154,20 +162,20 @@ div.layout div.layout__region--combined div.layout__region--second > div.field--
   grid-column-end: 6;
 }
 
-div.layout div.layout__region--combined div.layout__region--second > div.field--type-link > div.field--label {
+div.layout div.layout__region--combined div.layout__region--second > div.field--type-link.field--label-above > div.field--label {
   display: block;
   grid-column-start: 1;
   grid-column-end: 2;
   padding-right: 15px;
 }
 
-div.layout div.layout__region--combined div.layout__region--second > div.field--type-link > div.field--items {
+div.layout div.layout__region--combined div.layout__region--second > div.field--type-link.field--label-above > div.field--items {
   display: block;
   grid-column-start: 2;
   grid-column-end: 6;
 }
 
-div.layout div.layout__region--combined div.layout__region--second > div.field--type-link > div.field--item {
+div.layout div.layout__region--combined div.layout__region--second > div.field--type-link.field--label-above > div.field--item {
   display: block;
   grid-column-start: 2;
   grid-column-end: 6;
@@ -195,20 +203,20 @@ div.layout div.layout__region--combined div.layout__region--second div.field--ty
   grid-column-end: 6;
 }
 
-div.layout div.layout__region--combined div.layout__region--second div.field--type-entity-reference div.layout--onecol div.layout__region div.field--type-string div.field--label {
+div.layout div.layout__region--combined div.layout__region--second div.field--type-entity-reference div.layout--onecol div.layout__region div.field--type-string.field--label-above div.field--label {
   display: block;
   grid-column-start: 1;
   grid-column-end: 2;
   padding-right: 15px;
 }
 
-div.layout div.layout__region--combined div.layout__region--second div.field--type-entity-reference div.layout--onecol div.layout__region div.field--type-string div.field--items {
+div.layout div.layout__region--combined div.layout__region--second div.field--type-entity-reference div.layout--onecol div.layout__region div.field--type-string.field--label-above div.field--items {
   display: block;
   grid-column-start: 2;
   grid-column-end: 6;
 }
 
-div.layout div.layout__region--combined div.layout__region--second div.field--type-entity-reference div.layout--onecol div.layout__region div.field--type-string div.field--item {
+div.layout div.layout__region--combined div.layout__region--second div.field--type-entity-reference div.layout--onecol div.layout__region div.field--type-string.field--label-above div.field--item {
   display: block;
   grid-column-start: 2;
   grid-column-end: 6;
