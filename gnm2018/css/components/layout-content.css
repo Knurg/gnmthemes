@@ -74,16 +74,27 @@ div.layout__region--combined {
   justify-content: space-between;
   flex-shrink: 1;
   flex-wrap: wrap;
+  padding-top: 5px;
 }
 
 div.layout__region--combined div.layout__region--first {
   flex-basis: 47%;
   display: block;
+  flex-grow: 1;
 }
 
 div.layout__region--combined div.layout__region--second {
   flex-basis: 47%;
   display: block;
+  flex-grow: 1;
+}
+
+main#content section.section div.region-content div.layout div.layout__region--combined div.layout__region--first:empty {
+  display: none;
+}
+
+main#content section.section div.region-content div.layout div.layout__region--combined div.layout__region--second:empty {
+  display: none;
 }
 
 div.layout__region--bottom {
@@ -96,7 +107,9 @@ div.layout__region--bottom div.field {
 
 div.layout__region--title {
   margin-top: 10px;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid;
+  border-width: 1px;
 }
 
 div.layout__region--title div.field {
