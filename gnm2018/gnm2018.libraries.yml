@@ -17,6 +17,7 @@ global-styling:
       css/components/sidebar.css: {}
       css/components/layout-content.css: {}
       css/components/layout-main.css: {}
+      css/components/layout-entity.css: {}
     layout:
       css/layout/layout.css: {}
     theme:
