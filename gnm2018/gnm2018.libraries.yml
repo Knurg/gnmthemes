@@ -15,19 +15,8 @@ global-styling:
       css/components/site-branding.css: {}
       css/components/views.css: {}
       css/components/sidebar.css: {}
-      css/components/primary-menu.css: {}
-      css/components/secondary-menu.css: {}
-      css/components/page-title.css: {}
-      css/components/table.css: {}
-      css/components/list-group.css: {}
-      css/components/panel.css: {}
-      css/components/layout-main.css: {}
       css/components/layout-content.css: {}
-      css/components/buttons.css: {}
-      css/components/tabs.css: {}
-      css/components/form.css: {}
-      css/components/dropbutton.css: {}
-      css/components/wki-fnb-item.css: {}
+      css/components/layout-main.css: {}
     layout:
       css/layout/layout.css: {}
     theme:

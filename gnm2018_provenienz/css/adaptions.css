@@ -17,7 +17,133 @@
 }
 
 /************ navigate *********/
-/*
+
+div.region-content div.views-element-container div.view-b661085ac1552c83ff3c2b8c56b693fc div.view-filters div.form-group {
+  display: block;
+} 
+
+div.region-content div.views-element-container div.view-b661085ac1552c83ff3c2b8c56b693fc div.view-filters div.bef-links {
+  display: block;
+}
+
+div.region-content div.views-element-container div.view-b661085ac1552c83ff3c2b8c56b693fc div.view-filters div.form-item {
+  padding-bottom: 20px;
+}
+
+div.select-wrapper:after {
+  color: #e30019;
+}
+
+.views-view-grid div.views-row {
+  height: auto;
+  width: 100%;
+  clear: initial;
+}
+
+div.region-content div.views-element-container div.view-b661085ac1552c83ff3c2b8c56b693fc div.views-view-grid {
+  width: 850px;
+}
+
+div.region-content div.views-element-container div.view-b661085ac1552c83ff3c2b8c56b693fc img {
+  max-width: 100%;
+  height: auto;
+}
+
+div.region-content div.views-element-container div.view-b661085ac1552c83ff3c2b8c56b693fc div.view-filters {
+  float: right;
+  display: inline-block;
+  max-width: 250px;
+  height: 1100px;
+}
+
+div.region-content div.views-element-container div.view-b661085ac1552c83ff3c2b8c56b693fc div.view-filters select.form-select {
+  width: 250px;
+}
+
+div.region-content div.views-element-container div.view-b661085ac1552c83ff3c2b8c56b693fc div.view-filters .form--inline .form-item {
+  float:none;
+}
+
+body.path-wisski div.region-content div#block-halfpastthreegrain-page-title {
+  display: none;
+  position: absolute;
+#  top: 30px;
+  left: 17px;
+#  left: 98px;
+#  max-width: 55%;
+  height: 45px;
+  overflow: hidden;
+#  top: 234px;
+#  left: 234px;
+}
+
+h1.page-title {
+  font-size: 1.357em;
+}
+
+div.region-content {
+  position: relative;
+}
+
+div.field--name-b1e79a5add37ba54b227018e5a41c5f8 div.field__item {
+  display:inline-block;
+  padding-left: 0px;
+}
+
+div.field--name-b1e79a5add37ba54b227018e5a41c5f8 div.field__item:first-child {
+#  padding-left: 0.5em;
+}
+
+div.field--name-b1e79a5add37ba54b227018e5a41c5f8 div.field__item:after {
+  content: ',';
+  display:inline-block;
+
+}
+
+div.field--name-b1e79a5add37ba54b227018e5a41c5f8 div.field__item:last-child:after {
+  content: '';
+  display:inline-block;
+
+}
+
+
+div.bef-link-active a {
+  color: black !important;
+}
+
+.bef-exposed-form .form--inline div.form-item-wisski-path-main__130 > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bef-exposed-form .form--inline div.form-item-wisski-path-main__130 > div > div {
+  display: inline-block;
+}
+
+.bef-exposed-form .form--inline div.form-item-wisski-path-main__130 {
+  float: none; 
+}
+
+.bef-exposed-form .form--inline div.form-item-wisski-path-main__181 > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bef-exposed-form .form--inline div.form-item-wisski-path-main__181 > div > div {
+  display: inline-block;
+}
+
+div#block-halfpastthreegrain-breadcrumbs {
+  z-index: 10;
+}
+
+.bef-exposed-form .form--inline div.form-item-wisski-path-main__181 {
+  float: none; 
+}
+
+
 div.view-b661085ac1552c83ff3c2b8c56b693fc div.views-field-preview-image {
   max-width: 180px;
   max-height: 200px;
@@ -238,4 +364,33 @@ div.field--label-hidden > div.field__item {
     position: relative;
     top: 0px;
 
+}
+
+/** Institutionen **/
+
+div#main main#content div.view-institutionen div.view-content div.views-col {
+  text-align: center;
+  padding: 20px;
+}
+
+div#main main#content div.view-institutionen div.view-filters div.form-item {
+  width: 100%;
+}
+
+div#main main#content div.view-institutionen button {
+  display: none;
+}
+
+/** Personen **/
+div#main main#content div.view-bd9732aeea5784666b76e1e59038cade div.view-content div.views-col {
+  text-align: center;
+  padding: 20px;
+}
+
+div#main main#content div.view-bd9732aeea5784666b76e1e59038cade div.view-filters div.form-item {
+  width: 100%;
+}
+
+div#main main#content div.view-bd9732aeea5784666b76e1e59038cade button {
+  display: none;
 }

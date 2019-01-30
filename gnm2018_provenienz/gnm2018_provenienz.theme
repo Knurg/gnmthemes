@@ -94,6 +94,6 @@ function halfpastthreegrain_theme_suggestions_block_alter(array &$suggestions, a
 function gnm2018_provenienz_preprocess_breadcrumb(&$variables) {
 
   // hide "navigate"
-  if($variables['breadcrumb'][1]['url'] == "/wisski/navigate")
+  if(isset($variables['breadcrumb']) && isset ($variables['breadcrumb'][1]) && isset($variables['breadcrumb'][1]['url']) && $variables['breadcrumb'][1]['url'] == "/wisski/navigate")
     unset($variables['breadcrumb'][1]);
 }
