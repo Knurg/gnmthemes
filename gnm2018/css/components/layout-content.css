@@ -21,6 +21,11 @@ div#main main#content section.section > div {
   flex-basis: 100%;
 }
 
+/* hopefully the text... */
+div#main main#content section.section > div > div {
+  z-index: 0;
+}
+
 div#sidebar-first {
   width: 250px;
   margin-right: 50px;

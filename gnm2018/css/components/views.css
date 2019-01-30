@@ -53,6 +53,9 @@ div.bef-links {
   justify-content: space-between;
 }
 
+
+/* THIS IS EVIL FOR MOST OTHER SCENARIOS THAN POSSE @TODO: Remove! */
+/*
 div.bef-links div.form-group:first-child a {
   visibility: hidden;
 }
@@ -62,6 +65,7 @@ div.bef-links div.form-group:first-child a:after {
   margin-left: -40px;
   visibility: visible;
 }
+*/
 
 div.bef-links div.form-group {
   padding-right: 10px;
