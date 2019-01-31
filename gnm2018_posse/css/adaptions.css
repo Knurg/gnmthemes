@@ -1,3 +1,16 @@
+/* Navigation BEF Links */
+
+div.bef-links div.form-group:first-child a {
+  visibility: hidden;
+}
+
+div.bef-links div.form-group:first-child a:after {
+  content: '-Alle-';
+  margin-left: -40px;
+  visibility: visible;
+}
+
+
 /* Layout Edition */
 
 main#content div.layout--onecol--1300px--one div.layout__region--center {

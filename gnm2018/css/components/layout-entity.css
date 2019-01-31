@@ -1,3 +1,16 @@
+div.field > div.field--label {
+  padding-bottom: 5px;
+}
+
+div.field > div.field--items {
+  padding-bottom: 5px;
+}
+
+div.field > field--item {
+  padding-bottom: 5px;
+}
+
+
 /* Grid Layout Two Columns */
 
 div.layout div.layout__region--combined div.layout__region--first {
@@ -238,15 +251,13 @@ div.layout div.layout__region--bottom div.field.field--label-hidden p {
   display: block;
   grid-column-start: 1;
   grid-column-end: 6;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 div.layout div.layout__region--bottom div.field.field--label-above div.field--label {
   display: block;
   grid-column-start: 1;
   grid-column-end: 2;
-  padding-bottom: 10px;
   padding-right: 10px;
 }
 
@@ -260,10 +271,6 @@ div.layout div.layout__region--bottom div.field.field--label-above div.field--it
   display: block;
   grid-column-start: 2;
   grid-column-end: 6;
-}
-
-div.layout div.layout__region--bottom div.field.field--label-above div.field--item:last-child {
-  padding-bottom: 10px;
 }
 
 div.layout div.layout__region--top {

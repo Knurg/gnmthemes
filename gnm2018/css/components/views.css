@@ -53,20 +53,6 @@ div.bef-links {
   justify-content: space-between;
 }
 
-
-/* THIS IS EVIL FOR MOST OTHER SCENARIOS THAN POSSE @TODO: Remove! */
-/*
-div.bef-links div.form-group:first-child a {
-  visibility: hidden;
-}
-
-div.bef-links div.form-group:first-child a:after {
-  content: '-Alle-';
-  margin-left: -40px;
-  visibility: visible;
-}
-*/
-
 div.bef-links div.form-group {
   padding-right: 10px;
 }
@@ -99,6 +85,12 @@ nav.pager-nav ul.pagination li.pager__item a:hover {
 nav.pager-nav ul.pagination li.is-active a {
   font-weight: bold;
 }   
+
+/* Views Navigation List */
+
+main#content div.region-content div.views-element-container div.view-content div.item-list ul li {
+  padding-bottom: 10px;
+}
 
 
 /* Views Navigation Flexgrid */
