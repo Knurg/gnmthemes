@@ -125,11 +125,15 @@ function gnm2018_provenienz_preprocess_layout__onecol__990px__nosidebar(&$variab
     dpm($key);
 }
 */
+/*
+function gnm2018_provenienz_preprocess_page(&$variables) {
+  dpm("yay!!!!!!!");
+}
 
 function gnm2018_provenienz_entity_view_alter(array &$build, Drupal\Core\Entity\EntityInterface $entity, \Drupal\Core\Entity\Display\EntityViewDisplayInterface $display) {
   dpm("yay!!");
 }
-
+*/
 function gnm2018_provenienz_preprocess_breadcrumb(&$variables) {
 
   // hide "navigate"

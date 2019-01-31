@@ -483,3 +483,7 @@ div.field--name-f76763a7adb8f4964ac0e00558359510 {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+div.layout div.layout__region--bottom {
+  clear: both;
+}

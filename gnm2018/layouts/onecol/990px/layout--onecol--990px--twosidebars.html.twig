@@ -19,7 +19,7 @@
 %}
 
 {% if content %}
-  <div{{ attributes.addClass(classes) }}>
+  <div{{ attributes.addClass(classes, 'wisski_bundle_' ~ wisski_bundle) }}>
     {% if content.title %}
       {% spaceless %}
         <div {{ region_attributes.title.addClass('layout__region', 'layout__region--title') }}>
