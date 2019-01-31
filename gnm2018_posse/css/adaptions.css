@@ -11,6 +11,26 @@ div.bef-links div.form-group:first-child a:after {
 }
 
 
+/* Field Display */
+
+main#content div.field.field--type-string div.field--items > div.field--item {
+  display: inline;
+}
+
+main#content div.field.field--type-string div.field--items {
+  word-break: break-word;
+}
+
+main#content div.field.field--type-string div.field--items > div.field--item:after {
+  content: ";\00a0";
+}
+
+main#content div.field.field--type-string div.field--items > div.field--item:last-child:after {
+  content: "";
+}
+
+
+
 /* Layout Edition */
 
 main#content div.layout--onecol--1300px--one div.layout__region--center {
