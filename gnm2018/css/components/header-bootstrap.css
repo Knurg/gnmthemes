@@ -205,7 +205,7 @@ div#second-level div#main-menu * {
  box-sizing:content-box;
 }
 
-div#second-level div#main-menu div > nav:first-child > div.dropdown ul {
+div#second-level div#main-menu div > nav:first-child > div ul {
   margin-top: 0px;
 }
 
