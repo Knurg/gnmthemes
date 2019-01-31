@@ -18,6 +18,12 @@ nav.tabs {
   z-index: 0;
 }
 
+@media (min-width: 1100px) {
+  nav.tabs {
+    z-index: 1;
+  }
+}
+
 nav.tabs ul {
 //  right: -40px;
   display: none;

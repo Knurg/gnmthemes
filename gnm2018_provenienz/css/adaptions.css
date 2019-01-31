@@ -368,17 +368,25 @@ div.field--label-hidden > div.field__item {
 
 /** Institutionen **/
 
-div#main main#content div.view-institutionen div.view-content div.views-col {
+div#main main#content div.view-b4b1bc319db8afbd54bdba451e6a71bf div.view-content div.views-col {
   text-align: center;
   padding: 20px;
 }
 
-div#main main#content div.view-institutionen div.view-filters div.form-item {
+div#main main#content div.view-b4b1bc319db8afbd54bdba451e6a71bf div.view-filters div.form-item {
   width: 100%;
 }
 
-div#main main#content div.view-institutionen button {
+div#main main#content div.view-b4b1bc319db8afbd54bdba451e6a71bf button {
   display: none;
+}
+
+div#main main#content div.view-b4b1bc319db8afbd54bdba451e6a71bf div.view-header {
+  float: right;
+  position: absolute;
+  top: -20px;
+  margin-top: 0px;
+  margin-right: 10px;
 }
 
 /** Personen **/
@@ -393,4 +401,85 @@ div#main main#content div.view-bd9732aeea5784666b76e1e59038cade div.view-filters
 
 div#main main#content div.view-bd9732aeea5784666b76e1e59038cade button {
   display: none;
+}
+
+div#main main#content div.view-bd9732aeea5784666b76e1e59038cade div.view-header {
+  float: right;
+  position: absolute;
+  top: -20px;
+  margin-top: 0px;
+  margin-right: 10px;
+}
+
+/* adaptions away from gnm2018 */
+div.layout__region--combined div.layout__region--first {
+  flex-basis: 66%;
+}
+
+div.layout__region--combined div.layout__region--second {
+  flex-basis: 30%;
+  justify-content: end;
+  padding-right: 10px;
+}
+
+@media (max-width: 1099px) {
+  div.layout__region--combined div.layout__region--second {
+    justify-content: center;
+    padding-right: 0px;
+  }
+}
+
+
+div.layout__region--combined div.layout__region--second div.field--item {
+  margin-bottom: 20px;
+}
+
+div.layout__region--combined div.layout__region--second div.field--item img {
+  width: 100%;
+}
+
+div.region-content div.layout__region div.field--item table {
+  width: 100%;
+  border: 2px solid #f2f2f2;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+div.region-content div.layout__region div.field--item table tr {
+  border-top: 2px solid #f2f2f2;
+}
+
+div.region-content div.layout__region div.field--item table tr th {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+div.region-content div.layout__region div.field--item table tr td {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+div.field--name-b1e79a5add37ba54b227018e5a41c5f8 div.field--items div.field--item:after {
+  content: ", ";
+}
+
+div.field--name-b1e79a5add37ba54b227018e5a41c5f8 div.field--items div.field--item:last-child:after {
+  content: "";
+}
+
+/* personen und institutionen */
+/* sachstandsbericht: padding top */
+div.field--name-f8509d98a943379b0ca61e18d1636394 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* personen bio */
+div.field--name-f76763a7adb8f4964ac0e00558359510 {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }

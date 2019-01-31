@@ -5,6 +5,8 @@ function gnm2018_provenienz_preprocess_field(&$variables, $hook) {
 
   $element = $variables['element'];
 
+  global $wisski_seen_that;
+
   // objektkategorie rewrite
   if($element['#field_name'] == 'f1621dd2af001f2f8b9e61b67040bbad') {
 #    $variables['element']['#items'][0]['value'] = "Hallo welt!";
@@ -76,7 +78,25 @@ function gnm2018_provenienz_preprocess_field(&$variables, $hook) {
     }
   }
 
-  
+  if($element['#field_name'] == 'f32b7f7ce4b6486c5de3a12d7b128233' || $element['#field_name'] == 'f32374a8de78d1e2495aeb8b16fda8c9' || $element['#field_name'] == 'f5d47d98cf1edce42f376147f25a0c6b' || $element['#field_name'] == 'f67586fdea4e4ca5d39517eaf189181d') {
+    // if any of these is set already in some other field, reset it...
+    foreach($variables['items'] as $key => $value) {
+
+      if(isset($variables['items'][$key]['content']['#url'])) {
+        $url = $variables['items'][$key]['content']['#url'];
+        $route_para = $url->getRouteParameters();
+
+        if(isset($route_para['wisski_individual'])) {
+          $id = $route_para['wisski_individual'];
+          if(isset($wisski_seen_that[$id])) {
+            $variables = array();
+          } else {
+            $wisski_seen_that[$route_para['wisski_individual']] = TRUE;
+          }
+        }
+      }
+    }
+  }
 
 }
 
@@ -90,6 +110,25 @@ function halfpastthreegrain_theme_suggestions_block_alter(array &$suggestions, a
     }
 }
 */
+
+/* must be person or institution in this case! */
+/*
+function gnm2018_provenienz_preprocess_layout__onecol__990px__nosidebar(&$variables) {
+  dpm(serialize($variables["content"]["#wisski_individual"]->get("f32b7f7ce4b6486c5de3a12d7b128233")->getValue()), "var1");
+  dpm(serialize($variables["content"]["#wisski_individual"]->get("f32374a8de78d1e2495aeb8b16fda8c9")->getValue()), "var2");
+  dpm(serialize($variables["content"]["#wisski_individual"]->get("f5d47d98cf1edce42f376147f25a0c6b")->getValue()), "var3");
+  dpm(serialize($variables["content"]["#wisski_individual"]->get("f67586fdea4e4ca5d39517eaf189181d")->getValue()), "var4");
+
+  $variables["content"]["#wisski_individual"]->set("f32374a8de78d1e2495aeb8b16fda8c9", array());
+
+  foreach($variables as $key => $variable) 
+    dpm($key);
+}
+*/
+
+function gnm2018_provenienz_entity_view_alter(array &$build, Drupal\Core\Entity\EntityInterface $entity, \Drupal\Core\Entity\Display\EntityViewDisplayInterface $display) {
+  dpm("yay!!");
+}
 
 function gnm2018_provenienz_preprocess_breadcrumb(&$variables) {
 
