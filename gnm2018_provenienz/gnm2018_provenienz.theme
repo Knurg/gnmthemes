@@ -58,8 +58,12 @@ function gnm2018_provenienz_preprocess_field(&$variables, $hook) {
     foreach($variables['items'] as $key => $value) {
       $old = $variables['items'][$key]['content']['#text'];
       $variables['items'][$key]['content']['#text'] = preg_replace('/<p><a href="#_ftn." title="">\[.\]<\/a><\/p>/', "", $old); 
+      $variables['items'][$key]['content']['#text'] = preg_replace('/<p>(<a href="#_ftn." title="">\[.\].?<.?br.?.?>.?<\/a>)+/', "", $variables['items'][$key]['content']['#text']);
       $variables['items'][$key]['content']['#text'] = preg_replace('/<p><strong>\&nbsp;<\/strong><\/p>/', "", $variables['items'][$key]['content']['#text']);
+      $variables['items'][$key]['content']['#text'] = str_replace("<a href=\"http://projektdb.gnm.de/provenienz2014/content/", "<a href=\"https://provenienz.gnm.de/wisski/get?uri=http://projektdb.gnm.de/provenienz2014/content/", $variables['items'][$key]['content']['#text']); #preg_replace('/<a href="https:\/\/provenienz\.gnm\.de\/objekt\/(.+)">(.+)<\/a>/', '<a href="https:\/\/provenienz\.gnm\.de\/wisski\/get?uri=https:\/\/provenienz\.gnm\.de\/objekt\/\1">\2<\/a>', $old);
+      $variables['items'][$key]['content']['#text'] = preg_replace('/^\s*<p>&nbsp;<\/p>/', "", $variables['items'][$key]['content']['#text']);
     }
+/*
   } else if($element['#field_name'] == 'f97855bad9c02a2b01ec1db619799615') { // rewrite for perma-link
     foreach($variables['items'] as $key => $value) {
 #      dpm($variables['items'][$key]['content']['#url']->fromUserInput("/wisski/test"), "val");
@@ -76,9 +80,11 @@ function gnm2018_provenienz_preprocess_field(&$variables, $hook) {
 #      dpm($variables['items'][$key]['content']['#url'], "dp");
 #      $variables['items'][$key]['content']['#url'] = $value['content']['#url']->fromUri(str_replace("https://provenienz.gnm.de/institution/", "https://provenienz.gnm.de/wisski/get?uri=https://provenienz.gnm.de/institution/", $value['content']['#url']->getUri())); 
     }
-  }
-
-  if($element['#field_name'] == 'f32b7f7ce4b6486c5de3a12d7b128233' || $element['#field_name'] == 'f32374a8de78d1e2495aeb8b16fda8c9' || $element['#field_name'] == 'f5d47d98cf1edce42f376147f25a0c6b' || $element['#field_name'] == 'f67586fdea4e4ca5d39517eaf189181d') {
+*/
+  } else if($element['#field_name'] == 'f32b7f7ce4b6486c5de3a12d7b128233' || $element['#field_name'] == 'f32374a8de78d1e2495aeb8b16fda8c9' || 
+            $element['#field_name'] == 'f5d47d98cf1edce42f376147f25a0c6b' || $element['#field_name'] == 'f67586fdea4e4ca5d39517eaf189181d' ||
+            $element['#field_name'] == 'f725d6de69d9a953dde963352cdd3cb7' || $element['#field_name'] == 'ff8e862c45c061e0245611ea16105940' ||
+            $element['#field_name'] == 'f1918267015b1fec053d12b52b042b74' || $element['#field_name'] == 'f684ba5a1807009338963fe058923ba8') {
     // if any of these is set already in some other field, reset it...
     foreach($variables['items'] as $key => $value) {
 
@@ -89,15 +95,37 @@ function gnm2018_provenienz_preprocess_field(&$variables, $hook) {
         if(isset($route_para['wisski_individual'])) {
           $id = $route_para['wisski_individual'];
           if(isset($wisski_seen_that[$id])) {
-            $variables = array();
+            $variables['items'][$key] = array();
           } else {
             $wisski_seen_that[$route_para['wisski_individual']] = TRUE;
           }
         }
       }
     }
-  }
+  } else if($element['#field_name'] == 'f9e72122e7141fb1ab59c4ec59e499fb' || $element['#field_name'] == 'f404696e8311266459df7f358dc63726' ||
+            $element['#field_name'] == 'f4aa8577d40b920c3a0bd2038f023a8a' || $element['#field_name'] == 'f102571e3a661116eda906eee592edb8' ||
+            $element['#field_name'] == 'f65af37b354a88b5d3579b02662ae4cd' || $element['#field_name'] == 'f8c5fa628daa1f8d9419533dda718604' ||
+            $element['#field_name'] == 'f634f7abd4b2c5d282730fb06c3703c5' || $element['#field_name'] == 'f50192c2b471acb461fa51fee86f8631') {
+    // if any of these is set already in some other field, reset it...
+    foreach($variables['items'] as $key => $value) {
 
+      if(isset($variables['items'][$key]['content']['#url'])) {
+        $url = $variables['items'][$key]['content']['#url'];
+        $route_para = $url->getRouteParameters();
+
+        if(isset($route_para['wisski_individual'])) {
+          $id = $route_para['wisski_individual'];
+          if(isset($wisski_seen_that[$id])) {
+#	    dpm($route_para['wisski_individual'], "I dont see !");
+            $variables['items'][$key] = array();
+          } else {
+#            dpm($route_para['wisski_individual'], "I see !");
+            $wisski_seen_that[$route_para['wisski_individual']] = TRUE;
+          }
+        }
+      }
+    }
+  }
 }
 
 

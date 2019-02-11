@@ -487,3 +487,76 @@ div.field--name-f76763a7adb8f4964ac0e00558359510 {
 div.layout div.layout__region--bottom {
   clear: both;
 }
+
+div.wisski_bundle_bd9732aeea5784666b76e1e59038cade div.layout__region--bottom:before {
+  content: 'Diese Person hatte Kontakt mit den folgenden Objekten:';
+  font-family: corpos-b;
+}
+
+div.wisski_bundle_b4b1bc319db8afbd54bdba451e6a71bf div.layout__region--bottom:before {
+  content: 'Diese Institution hatte Kontakt mit den folgenden Objekten:';
+  font-family: corpos-b;
+}
+
+.search-row.views-row {
+  clear: both;
+  float: left;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.search-row.views-row div.layout {
+  max-width: 100%;
+  width: 100%;
+  word-break: break-word;
+}
+
+
+main#content > section.section > div.region > div.views-element-container > div.view-id-suche nav.pager-nav {
+  clear: both;
+}
+
+@media (min-width: 1100px) {
+  main#content > section.section > div.region > div.views-element-container div.view-id-suche {
+    width: 800px;
+  }
+
+  main#content > section.section > div.region > div.views-element-container div.view-id-suche div.view-header {
+    width: 1100px;
+  }
+
+  main#content > section.section > div.region > div.views-element-container div.view-id-suche div.view-content {
+    width: 800px;
+    min-width: 800px;
+  }
+}
+
+header#header div.region-secondary-menu nav div.dropdown ul li a[href="/suche"]:before {
+    content: "\e003";
+    position: absolute;
+    top: 0px;
+    left: -10px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+header#header div.region-secondary-menu nav div.dropdown ul li a[href="/suche"] {
+
+}
+
+div.layout div.layout__region--combined div.layout__region--first div.field--name-b6af67dc5c6376b98a2772dbfdbbc476 > div.field--items > div.field--item {
+  display: block;
+  clear: both;
+}
+
+div.field--name-f1621dd2af001f2f8b9e61b67040bbad {
+  padding-bottom: 10px;
+}
+
+span.solr-high {
+  background-color: yellow;
+}
