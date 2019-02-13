@@ -276,6 +276,7 @@ div.layout div.layout__region--bottom div.field.field--label-above div.field--it
 div.layout div.layout__region--top {
   display: grid;
   float: left;
+  clear: both;
 }
 
 div.layout div.layout__region--top div.field {
@@ -324,6 +325,7 @@ div.layout div.layout__region--center {
   display: grid;
   float: left;
   align-content: start;
+  clear: both;
 }
 
 div.layout div.layout__region--center div.field {
