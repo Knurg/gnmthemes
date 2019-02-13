@@ -29,6 +29,15 @@ main#content div.field.field--type-string div.field--items > div.field--item:las
   content: "";
 }
 
+div.layout__region--bottom > section {
+  display: contents;
+}
+
+div.layout__region--bottom form.comment-form {
+  display: block;
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
 
 
 /* Layout Edition */
