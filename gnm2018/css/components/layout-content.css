@@ -130,6 +130,10 @@ div.layout__region--title div.field {
   div.layout__region--combined div.layout__region--second {
     flex-basis: 100%;
   }
+  div.region-breadcrumb {
+    white-space: nowrap;
+    overflow: hidden;
+  }
 }
 
 
