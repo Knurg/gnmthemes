@@ -1,3 +1,10 @@
+/* Bearbeitung */
+
+div.region-content nav.tabs {
+  right: -47px;
+}
+
+
 /* Navigation BEF Links */
 
 div.bef-links div.form-group:first-child a {
@@ -8,6 +15,10 @@ div.bef-links div.form-group:first-child a:after {
   content: '-Alle-';
   margin-left: -40px;
   visibility: visible;
+}
+
+div.views-element-container div.view div.view-header {
+  padding-bottom: 6px;
 }
 
 
