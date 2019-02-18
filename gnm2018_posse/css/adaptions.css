@@ -1,3 +1,10 @@
+/* Suche */
+
+form#search-form div.input-group input {
+  z-index: 0;
+}
+
+
 /* Bearbeitung */
 
 div.region-content nav.tabs {
