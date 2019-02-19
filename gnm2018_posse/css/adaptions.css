@@ -60,6 +60,10 @@ div.layout__region--bottom form.comment-form {
 
 /* Layout Edition */
 
+div.region-content div.layout--1300px--one div.layout__region--center {
+  float: initial;
+}
+
 main#content div.layout--onecol--1300px--one div.layout__region--center {
   display: initial;
 }
