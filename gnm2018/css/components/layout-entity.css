@@ -13,6 +13,14 @@ div.field > field--item {
 
 /* Grid Layout Two Columns */
 
+div.layout__region--first div.field > div.field--items {
+  padding-right: 10px;
+}
+
+div.layout__region--first div.field > div.field--item {
+  padding-right: 10px;
+}
+
 div.layout div.layout__region--combined div.layout__region--first {
   display: grid;
   float: left;
