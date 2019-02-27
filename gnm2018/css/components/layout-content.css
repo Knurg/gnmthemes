@@ -59,8 +59,8 @@ div#sidebar-second section.views-element-container h2.block-title {
 
 div#sidebar-second ul {
   list-style-type: none;
-  padding-left: 15px;
-  text-indent: -10px;
+  padding-left: 5px;
+#  text-indent: -10px;
 }
 
 div#sidebar-second section.views-element-container div.views-field ul li div.field--label {
