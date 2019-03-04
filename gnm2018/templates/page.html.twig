@@ -113,12 +113,15 @@
             {{ page.content }}
           </section>
         </main>
-        {% if page.sidebar_second %}
-          <div id="sidebar-second" class="column sidebar">
-            <aside class="section" role="complementary">
-              {{ page.sidebar_second }}
-            </aside>
-          </div>
+        {% set rendered_sidebar_second = render_var(page.sidebar_second) %}
+        {% if rendered_sidebar_second %}
+          {% spaceless %}
+            <div id="sidebar-second" class="column sidebar">
+              <aside class="section" role="complementary">
+                {{ page.sidebar_second }}
+              </aside>
+            </div>
+          {% endspaceless %}
         {% endif %}
       </div>
     </div>

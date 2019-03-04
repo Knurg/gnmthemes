@@ -4,6 +4,35 @@ function gnm2018_posse_preprocess_field(&$variables, $hook) {
 
   $element = $variables['element'];
 
+  if($element['#field_name'] == 'f82a20117d1f46a6e2cf970d3ca193da' || $element['#field_name'] == 'faadf9cd804f86c54a9a1db499839703' ||
+     $element['#field_name'] == 'f6ad048e395ad2bc515a4740ac3caea0' || $element['#field_name'] == 'f7022fc442472505171cb69d53859296' ||
+     $element['#field_name'] == 'fe4484ba3c95240538cb56765a3b1cd2' || $element['#field_name'] == 'f9c2101371ee3aa31c066d64cfcc95bb' ||
+     $element['#field_name'] == 'feb1057348fb962a7f4a3d5ff0c30228' || $element['#field_name'] == 'f65482ac0c8d819136faa9574e1e94ad' ||
+     $element['#field_name'] == 'ff8f4389604dcf280710a3d1513a5709' || $element['#field_name'] == 'f61f60e5dd667f8d90e1f0b35d53e180' ||
+     $element['#field_name'] == 'f3bfaa8cae5cd00f3c52963806d65643' || $element['#field_name'] == 'f8da7d753a8260b71329ef262ab45d68' ||
+     $element['#field_name'] == 'fb1d93b05bf9d888ba2d04bd41239f60' || $element['#field_name'] == 'fe345f52f8e46220bece565c7beba1c2' ||
+     $element['#field_name'] == 'feb4e4e3a5fa6115501da824a4abc270' || $element['#field_name'] == 'fec8d3e6299e6778b6571d6439633944' ||
+     $element['#field_name'] == 'f07176daeb2588cf61e0defd5485dc71' || $element['#field_name'] == 'fb441280c17b69765c817627d48c3db1' ||
+     $element['#field_name'] == 'fc4bd0877a35963efb93236810af743b' || $element['#field_name'] == 'fd395666d3f20c04cff9febaa207bb95') {
+
+    $current_user = \Drupal::currentUser();
+    $roles = $current_user->getRoles();
+
+    if(in_array("administrator", $roles) || in_array("erfasserin", $roles) || in_array("privilegierte_nutzer", $roles))
+      return;
+
+    foreach($variables['items'] as $key => $value) {
+      if(strpos($variables['items'][$key]['content']['#title'], "I,B-2") === FALSE) {
+        unset($variables['items'][$key]['content']['#url']);
+        $variables['items'][$key]['content']['#type'] = "item";
+        $variables['items'][$key]['content']['#markup'] =  $variables['items'][$key]['content']['#title'];
+        unset($variables['items'][$key]['content']['#title']);
+      } 
+    }
+  }
+
+
+
   if($element['#field_name'] == 'fb287a02fa5f8d22b89f391fd8b86834') {
 
     $current_user = \Drupal::currentUser();

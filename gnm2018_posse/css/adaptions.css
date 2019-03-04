@@ -20,7 +20,7 @@ div.bef-links div.form-group:first-child a {
 
 div.bef-links div.form-group:first-child a:after {
   content: '-Alle-';
-  margin-left: -40px;
+  margin-left: -30px;
   visibility: visible;
 }
 
@@ -88,6 +88,27 @@ main#content div.layout--onecol--1300px--one div.layout__region--center ul.footn
 div.field--name-ffc23fa047189b1a762a5aa0d4046b08 {
   float: right;
 }
+
+
+/* View Aufenthaltsdaten */
+
+div#geofield-map-view-aufenthaltsorte-page-1 ul li {
+  list-style-type: none;
+}
+
+div#geofield-map-view-aufenthaltsorte-page-1 ul li div.field--label {
+  display: none;
+}
+
+main#content div#geofield-map-view-aufenthaltsorte-page-1 ul li div.field--item {
+  display: block;
+  padding-bottom: 5px;
+}
+
+main#content div#geofield-map-view-aufenthaltsorte-page-1 ul li div.field--item:after {
+  content: "";
+}
+
 
 
 /* Editor styles */
