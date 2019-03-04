@@ -58,6 +58,18 @@ div.layout__region--bottom form.comment-form {
 }
 
 
+/* Projektbeschreibung */
+
+main#content div.layout__region--center figure.align-right {
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+main#content article.page div.layout__region--title:empty {
+  display: none;
+}
+
+
 /* Layout Edition */
 
 div.region-content div.layout--1300px--one div.layout__region--center {
