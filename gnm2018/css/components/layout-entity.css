@@ -206,6 +206,18 @@ div.layout div.layout__region--combined div.layout__region--second div.field--ty
   display: contents;
 }
 
+div.layout div.layout__region--combined div.layout__region--second div.field--type-entity-reference > div.field--label {
+  display: block;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+div.layout div.layout__region--combined div.layout__region--second div.field--type-entity-reference > div.field--items {
+  display: block;
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
+
 div.layout div.layout__region--combined div.layout__region--second div.field--type-entity-reference div.field--item {
   display: contents;
 }
