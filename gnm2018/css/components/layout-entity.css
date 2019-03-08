@@ -91,6 +91,13 @@ div.layout div.layout__region--combined div.layout__region--first div.field--typ
   grid-column-end: 6;
 }
 
+div.layout div.layout__region--combined div.layout__region--first div.field--type-entity-reference
+> div > div.field--type-entity-reference {
+  display: block;
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+
 div.layout div.layout__region--combined div.layout__region--first div.field--type-entity-reference.field--label-above > div.field--label {
   display: block;
   grid-column-start: 1;
@@ -111,6 +118,10 @@ div.layout div.layout__region--combined div.layout__region--first div.field--typ
 
 div.layout div.layout__region--combined div.layout__region--first div.field--type-entity-reference div.field--item {
   display: contents;
+}
+
+div.layout div.layout__region--combined div.layout__region--first div.field--type-entity-reference div.field--items > div.field--item {
+  display: block;
 }
 
 div.layout div.layout__region--combined div.layout__region--first div.field--type-entity-reference div.layout--onecol {
