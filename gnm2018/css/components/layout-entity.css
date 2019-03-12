@@ -210,6 +210,43 @@ div.layout div.layout__region--combined div.layout__region--first div.field--typ
   grid-column-end: 6;
 }
 
+/** By Mark: Abuse for entity reference! **/
+div.layout div.layout__region--combined div.layout__region--first div.field--type-entity-reference
+div[class*="field--type"].field--item:not(.field--type-entity-reference) {
+  display: block;
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+
+/** field items must always be contents - item must be block when inline. **/
+div.layout div.layout__region--combined div.layout__region--first
+div.field--type-entity-reference.field--label-inline div.field--items {
+  display: contents;
+}
+
+div.layout div.layout__region--combined div.layout__region--first
+div.field--type-entity-reference.field--label-inline div.field--item {
+  display: block;
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+
+/** do it for labels inside entity refs **/
+div.layout div.layout__region--combined div.layout__region--first
+div.field--type-entity-reference.field--label-inline div.field--label {
+  display: block;
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+
+div.layout div.layout__region--combined div.layout__region--first div.field--type-entity-reference > div >
+div.field--type-entity-reference.field--label-inline {
+  display: contents;
+}
+
+
+
+
 div.layout div.layout__region--combined div.layout__region--second {
   display: grid;
   float: left;
