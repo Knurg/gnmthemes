@@ -116,6 +116,8 @@ div.layout div.layout__region--combined div.layout__region--first div.field--typ
   grid-column-end: 6;
 }
 
+
+/** inline mode for region first **/
 div.layout div.layout__region--combined div.layout__region--first div[class*="field--type-text"].field--label-inline {
   display: contents;
   grid-column-start: 1;
@@ -135,6 +137,32 @@ div.layout div.layout__region--combined div.layout__region--first div.field--lab
 }
 
 div.layout div.layout__region--combined div.layout__region--first div[class*="field--type-text"].field--label-inline
+> div.field--item {
+  display: block;
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+
+/** inline mode for bottom **/
+div.layout div.layout__region--bottom div[class*="field--type-text"].field--label-inline {
+  display: contents;
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+
+div.layout div.layout__region--bottom div[class*="field--type-text"].field--label-inline
+> div.field--label {
+  display: block;
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+
+div.layout div.layout__region--bottom div.field--label-inline
+> div.field--label:after {
+  content: '';
+}
+
+div.layout div.layout__region--bottom div[class*="field--type-text"].field--label-inline
 > div.field--item {
   display: block;
   grid-column-start: 1;
