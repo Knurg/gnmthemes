@@ -4,11 +4,186 @@ form#search-form div.input-group input {
   z-index: 0;
 }
 
+/* solr search */
+
+/* Edition Tagebuch Eins */
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-eins div.view-content span.views-field
+span.field-content div.layout div.field--name-ffc23fa047189b1a762a5aa0d4046b08
+div:first-child img {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 200px;
+  width: auto;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-eins div.view-header {
+  border-bottom: solid;
+  border-width: 1px;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-eins div.view-content span.views-field
+span.field-content div.layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-eins div.view-content span.views-field
+span.field-content div.layout div.layout__region--title {
+  display: inherit;
+  order: 2;
+  border-bottom: none;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-eins div.view-content span.views-field
+span.field-content div.layout div.layout__region--title div.field a {
+  font-size: initial;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-eins div.view-content span.views-field
+span.field-content div.layout div.layout__region--center {
+  display: inherit;
+  order: 1;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-eins div.view-content span.views-field
+span.field-content div.layout div.field {
+  display: none;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-eins div.view-content span.views-field
+span.field-content div.layout section.field--type-comment {
+  display: none;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-eins div.view-content span.views-field
+span.field-content div.layout div.layout__region--title div.field {
+  display: block;
+  text-align: center;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-eins div.view-content span.views-field
+span.field-content div.layout div.field--name-ffc23fa047189b1a762a5aa0d4046b08 {
+  display: block;
+}
+
+
+/* Edition Tagebuch Zwei */
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-zwei div.view-content span.views-field
+span.field-content div.layout div.field--name-ffc23fa047189b1a762a5aa0d4046b08
+div:first-child img {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 200px;
+  width: auto;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-zwei div.view-header {
+  border-bottom: solid;
+  border-width: 1px;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-zwei div.view-content span.views-field
+span.field-content div.layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-zwei div.view-content span.views-field
+span.field-content div.layout div.layout__region--title {
+  display: inherit;
+  order: 2;
+  border-bottom: none;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-zwei div.view-content span.views-field
+span.field-content div.layout div.layout__region--title div.field a {
+  font-size: initial;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-zwei div.view-content span.views-field
+span.field-content div.layout div.layout__region--center {
+  display: inherit;
+  order: 1;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-zwei div.view-content span.views-field
+span.field-content div.layout div.field {
+  display: none;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-zwei div.view-content span.views-field
+span.field-content div.layout section.field--type-comment {
+  display: none;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-zwei div.view-content span.views-field
+span.field-content div.layout div.layout__region--title div.field {
+  display: block;
+  text-align: center;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-zwei div.view-content span.views-field
+span.field-content div.layout div.field--name-ffc23fa047189b1a762a5aa0d4046b08 {
+  display: block;
+}
+
+
+/* Facets */
+
+section.block-facet--links {
+  margin-bottom: 10px;
+}
+
+section.block-facets--links > h2.block-title {
+  margin-bottom: 5px;
+}
+
+section.block-facet--links div.facets-widget-links > ul.item-list__links {
+  margin-bottom: 5px;
+  list-style-type: none;
+  padding-left: 10px;
+}
+
 
 /* Bearbeitung */
 
 div.region-content nav.tabs {
   right: -47px;
+}
+
+
+/* Navigation */
+
+main#content section.section div.region-content div.views-element-container div.viewflexgrid div.view-content {
+  text-align: center;
 }
 
 
