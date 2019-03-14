@@ -91,12 +91,15 @@ div.layout div.layout__region--combined div.layout__region--first div.field--typ
   grid-column-end: 6;
 }
 
+/** what is this for? */
+/*
 div.layout div.layout__region--combined div.layout__region--first div.field--type-entity-reference
 > div > div.field--type-entity-reference {
   display: block;
   grid-column-start: 1;
   grid-column-end: 6;
 }
+*/
 
 div.layout div.layout__region--combined div.layout__region--first div.field--type-entity-reference.field--label-above > div.field--label {
   display: block;
