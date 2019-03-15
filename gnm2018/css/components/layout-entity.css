@@ -27,27 +27,27 @@ div.layout div.layout__region--combined div.layout__region--first {
   align-content: start;
 }
 
-div.layout div.layout__region--combined div.layout__region--first > div.field--type-string {
+div.layout div.layout__region--combined div.layout__region--first  div.field--type-string {
   display: contents;
   grid-column-start: 1;
   grid-column-end: 6;
 }
 
 /* ABOVE = INLINE - WITH LABEL! */
-div.layout div.layout__region--combined div.layout__region--first > div.field--type-string.field--label-above > div.field--label {
+div.layout div.layout__region--combined div.layout__region--first div.field--type-string.field--label-above > div.field--label {
   display: block;
   grid-column-start: 1;
   grid-column-end: 2;
   padding-right: 15px;
 }
 
-div.layout div.layout__region--combined div.layout__region--first > div.field--type-string.field--label-above > div.field--items {
+div.layout div.layout__region--combined div.layout__region--first  div.field--type-string.field--label-above > div.field--items {
   display: block;
   grid-column-start: 2;
   grid-column-end: 6;
 }
 
-div.layout div.layout__region--combined div.layout__region--first > div.field--type-string.field--label-above > div.field--item {
+div.layout div.layout__region--combined div.layout__region--first  div.field--type-string.field--label-above > div.field--item {
   display: block;
   grid-column-start: 2;
   grid-column-end: 6;
@@ -177,7 +177,7 @@ div.layout div.layout__region--combined div.layout__region--first div.field--typ
 }
 
 div.layout div.layout__region--combined div.layout__region--first div.field--type-entity-reference div.field--items > div.field--item {
-  display: block;
+  display: contents;
 }
 
 div.layout div.layout__region--combined div.layout__region--first div.field--type-entity-reference div.layout--onecol {
@@ -223,12 +223,12 @@ div[class*="field--type"].field--item:not(.field--type-entity-reference) {
 
 /** field items must always be contents - item must be block when inline. **/
 div.layout div.layout__region--combined div.layout__region--first
-div.field--type-entity-reference.field--label-inline div.field--items {
+div.field--type-entity-reference.field--label-inline > div.field--items {
   display: contents;
 }
 
 div.layout div.layout__region--combined div.layout__region--first
-div.field--type-entity-reference.field--label-inline div.field--item {
+div.field--type-entity-reference.field--label-inline > div.field--item {
   display: block;
   grid-column-start: 1;
   grid-column-end: 6;
@@ -236,10 +236,15 @@ div.field--type-entity-reference.field--label-inline div.field--item {
 
 /** do it for labels inside entity refs **/
 div.layout div.layout__region--combined div.layout__region--first
-div.field--type-entity-reference.field--label-inline div.field--label {
+div.field--type-entity-reference.field--label-inline > div.field--label {
   display: block;
   grid-column-start: 1;
   grid-column-end: 6;
+}
+
+/* reset if inline */
+.field--label-above > .field--label::after {
+    content: '';
 }
 
 div.layout div.layout__region--combined div.layout__region--first div.field--type-entity-reference > div >
