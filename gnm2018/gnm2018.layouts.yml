@@ -141,6 +141,38 @@ layout_twocol_1100px_nosidebar:
       label: Second
     bottom:
       label: Bottom
+      
+layout_two_twocol_1100px_nosidebar:
+  label: 'Two two-column, no sidebar (1100px)'
+  path: layouts/twocol/1100px
+  template: layout--two--twocol--1100px--nosidebar
+  library: layout_discovery/twocol
+  category: 'Columns: 2'
+  default_region: first
+  icon_map:
+    - [title]
+    - [top]
+    - [first, second]
+    - [middle]
+    - [third, fourth]
+    - [bottom]
+  regions:
+    title:
+      label: Title
+    top:
+      label: Top
+    first:
+      label: First
+    second:
+      label: Second
+    middle:
+      label: Middle
+    third:
+      label: Third
+    fourth:
+      label: Fourth
+    bottom:
+      label: Bottom
 
 layout_twocol_1300px_onesidebar:
   label: 'Two column, one sidebar (1300px)'
