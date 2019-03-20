@@ -64,14 +64,14 @@
     <div{{ create_attribute({'class': ['layout__region', 'layout__region--combined--second']}) }}>
       {% if content.third %}
         {% spaceless %}
-          <div {{ region_attributes.third.addClass('layout__region', 'layout__region--combined--second', 'layout__region--first') }}>
+          <div {{ region_attributes.third.addClass('layout__region', 'layout__region--combined--second', 'layout__region--third') }}>
             {{ content.third }}
           </div>
         {% endspaceless %}
       {% endif %}
       {% if content.fourth %}
         {% spaceless %}
-          <div {{ region_attributes.fourth.addClass('layout__region', 'layout__region--combined--second', 'layout__region--second') }}>
+          <div {{ region_attributes.fourth.addClass('layout__region', 'layout__region--combined--second', 'layout__region--fourth') }}>
             {{ content.fourth }}
           </div>
         {% endspaceless %}
