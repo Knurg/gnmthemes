@@ -156,6 +156,81 @@ span.field-content div.layout div.field--name-ffc23fa047189b1a762a5aa0d4046b08 {
 }
 
 
+/* Edition Tagebuch Drei */
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-drei div.view-content span.views-field
+span.field-content div.layout div.field--name-ffc23fa047189b1a762a5aa0d4046b08
+div:first-child img {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 200px;
+  width: auto;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-drei div.view-header {
+  border-bottom: solid;
+  border-width: 1px;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-drei div.view-content span.views-field
+span.field-content div.layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-drei div.view-content span.views-field
+span.field-content div.layout div.layout__region--title {
+  display: inherit;
+  order: 2;
+  border-bottom: none;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-drei div.view-content span.views-field
+span.field-content div.layout div.layout__region--title div.field a {
+  font-size: initial;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-drei div.view-content span.views-field
+span.field-content div.layout div.layout__region--center {
+  display: inherit;
+  order: 1;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-drei div.view-content span.views-field
+span.field-content div.layout div.field {
+  display: none;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-drei div.view-content span.views-field
+span.field-content div.layout section.field--type-comment {
+  display: none;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-drei div.view-content span.views-field
+span.field-content div.layout div.layout__region--title div.field {
+  display: block;
+  text-align: center;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-drei div.view-content span.views-field
+span.field-content div.layout div.field--name-ffc23fa047189b1a762a5aa0d4046b08 {
+  display: block;
+}
+
+
 /* Facets */
 
 section.block-facet--links {
@@ -170,6 +245,55 @@ section.block-facet--links div.facets-widget-links > ul.item-list__links {
   margin-bottom: 5px;
   list-style-type: none;
   padding-left: 10px;
+}
+
+
+/* View Suche */
+
+main#content div.view-suche div.layout__region--title {
+  display: flex;
+  flex-basis: 100%;
+  overflow: hidden;
+  clear: both;
+}
+
+main#content div.view-suche div.layout__region--center div.field--type-text-long p {
+  margin-bottom: 10px;
+}
+
+main#content div.view-suche div.layout__region--center ul.footnotes {
+  margin-bottom: 0px;
+}
+
+main#content div.view-suche div.layout__region--bottom {
+  overflow: hidden;
+  clear: both;
+  margin-bottom: 50px;
+}
+
+main#content div.view-suche div.layout__region--bottom section.field--type-comment {
+  display: none;
+}
+
+main#content div.view-suche div.layout__region--bottom div.field--label-above div.field__label {
+  display: block;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  padding-right: 10px;
+}
+
+main#content div.view-suche div.layout__region--bottom div.field--label-above div.field__item {
+  display: block;
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
+
+main#content div.view-suche nav.pager-nav {
+  display: flex;
+  justify-content: center;
+  flex-basis: 100%;
+  overflow: hidden;
+  clear: both;
 }
 
 
@@ -274,6 +398,78 @@ main#content div.layout--onecol--1300px--one div.layout__region--center ul.footn
 
 div.field--name-ffc23fa047189b1a762a5aa0d4046b08 {
   float: right;
+}
+
+
+/* Kommentare */
+
+div.layout__region--bottom > section h2 {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  font-size: 2rem;
+}
+
+div.layout__region--bottom > section article.js-comment {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  margin-bottom: 20px;
+}
+
+div.layout__region--bottom > section div.indented {
+  display: contents;
+}
+
+div.layout__region--bottom > section article.js-comment footer {
+  color: black;
+  background-color: white;
+  border: solid 1px #e30019;
+}
+
+div.layout__region--bottom > section article.js-comment footer a {
+  color: #e30019;
+}
+
+div.layout__region--bottom > section article.js-comment footer > a {
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+div.layout__region--bottom > section article.js-comment footer p {
+  padding-top: 5px;
+}
+
+div.layout__region--bottom > section article.js-comment div h3 {
+  font-size: 2rem;
+}
+
+div.view-aktuelle-kommentare article.js-comment footer {
+  color: black;
+  background-color: white;
+  border: solid 1px #e30019;
+}
+
+div.view-aktuelle-kommentare article.js-comment footer a {
+  color: #e30019;
+}
+
+div.view-aktuelle-kommentare article.js-comment footer p {
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+div.view-aktuelle-kommentare article.js-comment footer > a {
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-left: 10px;
+}
+
+div.view-aktuelle-kommentare article.js-comment div h3 {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+div.view-aktuelle-kommentare article.js-comment div ul {
+  margin-bottom: 20px;
 }
 
 
