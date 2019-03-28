@@ -109,6 +109,11 @@ div#footer-right {
 div#footer-right-wisski {
   display: block;
   max-width: 250px;
+  margin-left: 20px;
+}
+
+div#footer-right-wisski a {
+  margin-left: -20px;
 }
 
 div#footer-right-wisski img {
