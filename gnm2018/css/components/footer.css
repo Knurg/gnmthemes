@@ -13,7 +13,7 @@ footer {
 
 @media ( min-height: 950px ) { 
   footer.footer {
-    padding-bottom: 150px;
+    padding-bottom: 100px;
   }
 }
 
