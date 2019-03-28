@@ -95,6 +95,8 @@ div#footer-gnm {
 
 div#footer-contactdata {
   width: 200px;
+  line-height: 10px;
+  padding-top: 5px;
 }
 
 div#footer-right {

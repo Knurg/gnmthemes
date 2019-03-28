@@ -296,6 +296,26 @@ main#content div.view-suche nav.pager-nav {
   clear: both;
 }
 
+div#main div.region-sidebar-first section div.facets-widget-links h3 {
+  font-size: 2rem;
+}
+
+
+/* Button Suche */
+
+header#header div.region-secondary-menu nav div.dropdown ul li a[href="/suche"]:before {
+  content: "\e003";
+  position: absolute;
+  top: 0px;
+  left: -10px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
 
 /* Bearbeitung */
 
@@ -366,6 +386,13 @@ main#content div.layout__region--center figure.align-right {
 
 main#content article.page div.layout__region--title:empty {
   display: none;
+}
+
+
+/* Layout Tagebücher */
+
+main#content section.section div.region-content div.views-element-container div.view-ba62c542acc518e1a9b624db03a908aa {
+  margin-top: 30px;
 }
 
 
@@ -492,6 +519,12 @@ main#content div#geofield-map-view-aufenthaltsorte-page-1 ul li div.field--item:
   content: "";
 }
 
+
+/* View Körperschaften */
+
+form#views-exposed-form-bab2e96b12847b3c7a424e3cb331d7dd-bab2e96b12847b3c7a424e3cb331d7dd div.form--inline fieldset.form-wrapper legend {
+  top: 55px;
+}
 
 
 /* Editor styles */
