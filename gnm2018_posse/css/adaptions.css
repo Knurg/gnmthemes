@@ -12,6 +12,68 @@ footer.footer div#footer-contactdata {
   width: 100%;
 }
 
+@media (max-width: 720px) {
+  footer.footer div#footer-contactdata {
+    left: 10px; 
+  }
+  footer.footer div.layout-container {
+    justify-content: start;
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 570px) {
+  footer.footer div#footer-left-top {
+    flex-direction: column;
+  }
+  footer.footer div#footer-gnm {
+    margin-bottom: 30px;
+  }
+  footer.footer div#footer-contactdata {
+    position: relative;
+    flex-direction: column;
+    left: 0px;
+  }
+  footer.footer div.layout-container div#footer-contactdata p {
+    padding-left: 0px;
+  }
+  footer.footer div.layout-container div#footer-contactdata p:last-child {
+    padding-top: 10px;
+  }
+  footer.footer div.layout-container div#footer-contactdata a {
+    padding-left: 0px;
+    display: contents;
+  }
+  footer.footer div.layout-container div#footer-contactdata span.gnm-pipe {
+    display: contents;
+  }
+  footer.footer div.layout-container div#footer-contactdata p:after {
+    display: none;
+  }
+  footer.footer div#footer-contactdata p:last-child:before {
+    display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  footer.footer div#footer-right {
+    flex-wrap: wrap;
+  }
+  footer.footer div#footer-right-gnm {
+    margin-bottom: 20px;
+  }
+  footer.footer div#footer-right-wisski {
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+  footer.footer div.site-footer__top div.region-footer {
+    flex-wrap: wrap; 
+  }
+  footer.footer section#block-logo-leibniz-footer {
+    margin-bottom: 20px;
+  }
+}
+
 footer.footer div#footer-contactdata p:first-child {
   padding-left: 0px;
 }
@@ -24,9 +86,20 @@ footer.footer div#footer-contactdata p:after {
   content: '\00a0|';
 }
 
+footer.footer div#footer-contactdata p:last-child:before {
+  content: '\00a0|';
+}
+
+footer.footer div#footer-contactdata p:last-child:after {
+  content:'';
+}
+
 footer.footer div#footer-contactdata a {
   padding-left: 5px;
-  padding-right: 5px;
+}
+
+footer.footer div#footer-contactdata span.gnm-pipe {
+  padding-left: 5px;
 }
 
 footer.footer section#block-dzklogofooter-2 {
@@ -340,6 +413,10 @@ main#content div.view-suche nav.pager-nav {
   clear: both;
 }
 
+div#main div#sidebar-first {
+  margin-left: -300px;
+}
+
 div#main div.region-sidebar-first section div.facets-widget-links h3 {
   font-size: 2rem;
 }
@@ -432,6 +509,14 @@ main#content article.page div.layout__region--title:empty {
   display: none;
 }
 
+
+/* Layout Pages */
+
+@media (max-width: 1130px) {
+  main#content section article p {
+    margin-left: 10px;
+  }
+}
 
 /* Layout Tagebücher */
 
@@ -568,6 +653,14 @@ main#content div#geofield-map-view-aufenthaltsorte-page-1 ul li div.field--item:
 
 form#views-exposed-form-bab2e96b12847b3c7a424e3cb331d7dd-bab2e96b12847b3c7a424e3cb331d7dd div.form--inline fieldset.form-wrapper legend {
   top: 55px;
+}
+
+
+/* View Ortsdaten */
+
+div.views-field-wisski-path-hauptpb__koordinaten {
+  display: flex;
+  justify-content: center;
 }
 
 
