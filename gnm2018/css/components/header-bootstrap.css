@@ -313,9 +313,9 @@ body .dropdown-menu > li > a:hover, a:focus {
     margin: 0;
     padding: 0;
     width: 280px;
-    background: #eae4d6;
+    border: 1px solid transparent;
     margin-left: -60px;
-    margin-top: 16px;
+    margin-top: 15px;
   }
 
   div#second-level div#main-menu div > nav > div.dropdown ul li:hover ul {
@@ -330,6 +330,7 @@ body .dropdown-menu > li > a:hover, a:focus {
     padding-right: 30px;
     position: relative;
     border-bottom: 1px solid #c6c1b6;
+    background: #eae4d6;
   }
 }
 
