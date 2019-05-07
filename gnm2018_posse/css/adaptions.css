@@ -156,12 +156,53 @@ form#search-form div.input-group input {
 
 /* solr search */
 
+/* Editionen Bild überblenden */
+
+div.view-edition-tagebuch-eins div.view-content div.grid div.views-field {
+  height: 280px;
+}
+
+div.view-edition-tagebuch-eins div.view-content div.grid div.views-field span.field-content div.layout__region--title div.field a {
+  position: absolute;
+  padding-top: 264px;
+  height: 100%;
+  bottom: 0px;
+  left: 10px;
+  width: 90%;
+}
+
+div.view-edition-tagebuch-zwei div.view-content div.grid span.views-field {
+  height: 280px;
+}
+
+div.view-edition-tagebuch-zwei div.view-content div.grid span.views-field span.field-content div.layout__region--title div.field a {
+  position: absolute;
+  padding-top: 264px;
+  height: 100%;
+  bottom: 0px;
+  left: 10px;
+  width: 90%;
+}
+
+div.view-edition-tagebuch-drei div.view-content div.grid span.views-field {
+  height: 280px;
+}
+
+div.view-edition-tagebuch-drei div.view-content div.grid span.views-field span.field-content div.layout__region--title div.field a {
+  position: absolute;
+  padding-top: 264px;
+  height: 100%;
+  bottom: 0px;
+  left: 10px;
+  width: 90%;
+}
+
+
 /* Edition Tagebuch Eins */
 
 body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
-> div.views-element-container > div.view-edition-tagebuch-eins div.view-content span.views-field
-span.field-content div.layout div.field--name-ffc23fa047189b1a762a5aa0d4046b08
-div:first-child img {
+> div.views-element-container > div.view-edition-tagebuch-eins div.view-content div.views-field
+span.field-content div.layout div.field--name-ffc23fa047189b1a762a5aa0d4046b08 div:first-child img {
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 0px;
@@ -177,7 +218,7 @@ body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#co
 }
 
 body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
-> div.views-element-container > div.view-edition-tagebuch-eins div.view-content span.views-field
+> div.views-element-container > div.view-edition-tagebuch-eins div.view-content div.views-field
 span.field-content div.layout {
   display: flex;
   flex-wrap: wrap;
@@ -185,7 +226,7 @@ span.field-content div.layout {
 }
 
 body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
-> div.views-element-container > div.view-edition-tagebuch-eins div.view-content span.views-field
+> div.views-element-container > div.view-edition-tagebuch-eins div.view-content div.views-field
 span.field-content div.layout div.layout__region--title {
   display: inherit;
   order: 2;
@@ -193,39 +234,39 @@ span.field-content div.layout div.layout__region--title {
 }
 
 body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
-> div.views-element-container > div.view-edition-tagebuch-eins div.view-content span.views-field
+> div.views-element-container > div.view-edition-tagebuch-eins div.view-content div.views-field
 span.field-content div.layout div.layout__region--title div.field a {
   font-size: initial;
 }
 
 body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
-> div.views-element-container > div.view-edition-tagebuch-eins div.view-content span.views-field
+> div.views-element-container > div.view-edition-tagebuch-eins div.view-content div.views-field
 span.field-content div.layout div.layout__region--center {
   display: inherit;
   order: 1;
 }
 
 body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
-> div.views-element-container > div.view-edition-tagebuch-eins div.view-content span.views-field
+> div.views-element-container > div.view-edition-tagebuch-eins div.view-content div.views-field
 span.field-content div.layout div.field {
   display: none;
 }
 
 body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
-> div.views-element-container > div.view-edition-tagebuch-eins div.view-content span.views-field
+> div.views-element-container > div.view-edition-tagebuch-eins div.view-content div.views-field
 span.field-content div.layout section.field--type-comment {
   display: none;
 }
 
 body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
-> div.views-element-container > div.view-edition-tagebuch-eins div.view-content span.views-field
+> div.views-element-container > div.view-edition-tagebuch-eins div.view-content div.views-field
 span.field-content div.layout div.layout__region--title div.field {
   display: block;
   text-align: center;
 }
 
 body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
-> div.views-element-container > div.view-edition-tagebuch-eins div.view-content span.views-field
+> div.views-element-container > div.view-edition-tagebuch-eins div.view-content div.views-field
 span.field-content div.layout div.field--name-ffc23fa047189b1a762a5aa0d4046b08 {
   display: block;
 }
@@ -446,12 +487,42 @@ main#content div.view-suche nav.pager-nav {
   clear: both;
 }
 
+main#content div.view-suche div.form-group div.form-item label.control-label {
+  display: none;
+}
+
+main#content div.view-suche div#edit-actions button.btn-info {
+  color: #fff;
+  background-color: #fff;
+  border-color: #ccc;
+}  
+
+main#content div.view-suche div#edit-actions button.btn-info:after {
+  content: 'Suche';
+  color: #333;
+  margin-left: -30px;
+}
+
+main#content div.view-suche div#edit-actions button.btn-info:hover {
+  color: #e6e6e6;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+
 div#main div#sidebar-first {
   margin-left: -300px;
 }
 
 div#main div.region-sidebar-first section div.facets-widget-links h3 {
   font-size: 2rem;
+}
+
+@media (max-width: 1710px) {
+  div#main div#sidebar-first {
+    margin-left: 30px;
+    order: 1;
+    width: 100%;
+  }
 }
 
 
@@ -528,6 +599,33 @@ div.layout__region--bottom form.comment-form {
   display: block;
   grid-column-start: 1;
   grid-column-end: 6;
+}
+
+
+/* Literaturverweise */
+
+div.layout div.layout__region--bottom div.field.field--name-b8b36bee19ad934da7fb0ec214d823a3.field--type-entity-reference.field--label-above div.field--items div.field--item {
+  display: inline;
+}
+
+div.field--name-f266e6d57e78dda375500421c277aec5:before {
+  content: ", S. ";
+}
+
+div.layout div.layout__region--bottom div.field.field--name-b809cead17471d259303e768ff82233f.field--type-entity-reference.field--label-above div.field--items div.field--item {
+  display: inline;
+}
+
+div.field--name-fd05799077a6b003266235d3cbb35a77:before {
+  content: ", S. ";
+}
+
+div.layout div.layout__region--bottom div.field.field--name-bfcc7d85ce4eca187afc0104953a3f20.field--type-entity-reference.field--label-above div.field--items div.field--item {
+  display: inline;
+}
+
+div.field--name-f66075a6294915c5e1eef3917078817d:before {
+  content: ", S. ";
 }
 
 
