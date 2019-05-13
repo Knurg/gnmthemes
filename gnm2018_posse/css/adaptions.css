@@ -441,6 +441,11 @@ section.block-facet--links div.facets-widget-links > ul.item-list__links {
 
 /* View Suche */
 
+main#content div.view-suche div.view-header {
+  text-align: start;
+  padding-bottom: 20px;
+}
+
 main#content div.view-suche div.layout__region--title {
   display: flex;
   flex-basis: 100%;
@@ -626,6 +631,52 @@ div.layout div.layout__region--bottom div.field.field--name-bfcc7d85ce4eca187afc
 
 div.field--name-f66075a6294915c5e1eef3917078817d:before {
   content: ", S. ";
+}
+
+div.layout div.layout__region--bottom div.field.field--name-bbe987d32f3e0c2703e31058cd730980.field--type-entity-reference.field--label-above div.field--items div.field--item {
+  display: inline;
+}
+
+div.field--name-f28ba44f1ba600577eb32786a712533c:before {
+  content: ", S. ";
+}
+
+
+/* Lebensdaten */
+
+div.field--name-f12cf73312fab3d36574e3fc03ca2857:before {
+  content: ", ";
+}
+
+div.field--name-f7543dbd82794d3c84eb37fc128eceda {
+  display: block !important;
+}
+
+div.field--name-f7543dbd82794d3c84eb37fc128eceda:before {
+  content: "Vater: ";
+  padding-right: 9px;
+  font-weight: bold;
+}
+
+div.field--name-fc273bd3802105ef7b75012dea470aad {
+  display: block !important;
+}
+
+div.field--name-fc273bd3802105ef7b75012dea470aad:before {
+  content: "Mutter: ";
+  font-weight: bold;
+}
+
+div.field--name-fe3ad5a30f2d0ea9c97ff8a44116c9bf:before {
+  content: ", ";
+}
+
+div.field--name-f48443b8f19914f1544ba49170856613:before {
+  content: " (";
+}
+
+div.field--name-f48443b8f19914f1544ba49170856613:after {
+  content: ")";
 }
 
 
