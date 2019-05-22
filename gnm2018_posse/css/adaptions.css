@@ -36,6 +36,10 @@ div#footer-right-gnm {
   display: none;
 }
 
+footer.footer div.site-footer__top {
+  position: relative;
+}
+
 footer.footer div.site-footer__top div.region-footer {
   flex-direction: column;
 }
@@ -45,27 +49,35 @@ section#block-logo-gnm-leibniz {
   margin-top: 30px;
 }
 
-@media (max-width: 720px) {
-  footer.footer div#footer-contactdata {
-    left: 10px; 
-  }
-  footer.footer div.layout-container {
-    justify-content: start;
+section#block-dzklogofooter-2 div.layout div.layout__region div.field--type-link div.field--label {
+  display: none;
+}
+
+section#block-dzklogofooter-2 div.layout div.layout__region div.field--type-link div.field--items div.field--item a {
+  position: absolute;
+  padding-top: 50px;
+  top: 20px;
+  color: transparent;
+}
+
+@media (max-width: 1100px) {
+  footer.footer div#footer-left {
     padding-left: 10px;
+  }
+  footer.footer div.site-footer__top {
+    padding-left: 10px;
+  }
+  footer.footer div#footer-right-wisski {
+    margin-left: 0px;
   }
 }
 
-@media (max-width: 570px) {
-  footer.footer div#footer-left-top {
-    flex-direction: column;
-  }
-  footer.footer div#footer-gnm {
-    margin-bottom: 30px;
-  }
+@media (max-width: 800px) {
   footer.footer div#footer-contactdata {
     position: relative;
     flex-direction: column;
     left: 0px;
+    margin-top: 15px;
   }
   footer.footer div.layout-container div#footer-contactdata p {
     padding-left: 0px;
@@ -85,6 +97,89 @@ section#block-logo-gnm-leibniz {
   }
   footer.footer div#footer-contactdata p:last-child:before {
     display: none;
+  }
+}
+
+@media (max-width: 720px) {
+  footer.footer div#footer-contactdata {
+    left: 10px; 
+  }
+  footer.footer div#footer-follow-us {
+    padding-top: 20px;
+  }
+  footer.footer div.layout-container {
+    justify-content: start;
+    padding-left: 10px;
+  }
+  footer.footer div#footer-contactdata {
+    position: relative;
+    flex-direction: column;
+    left: 0px;
+    margin-top: 15px;
+  }
+  footer.footer div.layout-container div#footer-contactdata p {
+    padding-left: 0px;
+  }
+  footer.footer div.layout-container div#footer-contactdata p:last-child {
+    padding-top: 10px;
+  }
+  footer.footer div.layout-container div#footer-contactdata a {
+    padding-left: 0px;
+    display: contents;
+  }
+  footer.footer div.layout-container div#footer-contactdata span.gnm-pipe {
+    display: contents;
+  }
+  footer.footer div.layout-container div#footer-contactdata p:after {
+    display: none;
+  }
+  footer.footer div#footer-contactdata p:last-child:before {
+    display: none;
+  }
+}
+
+@media (max-width: 570px) {
+  footer.footer div.layout-container {
+    flex-direction: column;
+  }
+  footer.footer div#footer-left-bottom {
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+  footer.footer div#footer-left-top {
+    flex-direction: column;
+  }
+  footer.footer div#footer-gnm {
+    margin-bottom: 30px;
+  }
+  footer.footer div#footer-contactdata {
+    position: relative;
+    flex-direction: column;
+    left: 0px;
+    margin-top: 0px;
+  }
+  footer.footer div.layout-container div#footer-contactdata p {
+    padding-left: 0px;
+  }
+  footer.footer div.layout-container div#footer-contactdata p:last-child {
+    padding-top: 10px;
+  }
+  footer.footer div.layout-container div#footer-contactdata a {
+    padding-left: 0px;
+    display: contents;
+  }
+  footer.footer div.layout-container div#footer-contactdata span.gnm-pipe {
+    display: contents;
+  }
+  footer.footer div.layout-container div#footer-contactdata p:after {
+    display: none;
+  }
+  footer.footer div#footer-contactdata p:last-child:before {
+    display: none;
+  }
+  footer.footer div#footer-right-wisski {
+    margin-left: 0px;
+    margin-bottom: 30px;
   }
 }
 
@@ -195,6 +290,52 @@ div.view-edition-tagebuch-drei div.view-content div.grid span.views-field span.f
   bottom: 0px;
   left: 10px;
   width: 90%;
+}
+
+
+/* Tagebücher Tabelle */
+
+div.view-ba62c542acc518e1a9b624db03a908aa div.view-footer article h2 {
+  display: none;
+}
+
+div.view-ba62c542acc518e1a9b624db03a908aa div.view-footer article div.content div.layout div.layout__region--center table tbody td {
+  width: 190px;
+  border-left: solid;
+  border-right: solid;
+  border-width: 1px;
+  border-color: #b3b3b3;
+}
+
+div.view-ba62c542acc518e1a9b624db03a908aa div.view-footer article div.content div.layout div.layout__region--center table tbody td:first-child {
+  width: 100px;
+  font-weight: bold;
+  border-left: none;
+}
+
+div.view-ba62c542acc518e1a9b624db03a908aa div.view-footer article div.content div.layout div.layout__region--center table tbody td:last-child {
+  border-right: none;
+}
+
+div.view-ba62c542acc518e1a9b624db03a908aa div.view-footer article div.content div.layout div.layout__region--center table tbody tr:first-child {
+  font-weight: bold;
+  border-top: none;
+}
+
+div.view-ba62c542acc518e1a9b624db03a908aa div.view-footer article div.content div.layout div.layout__region--center table tbody tr:last-child {
+  border-bottom: none;
+}
+
+div.view-ba62c542acc518e1a9b624db03a908aa div.view-footer article div.content div.layout div.layout__region--center table tbody tr {
+  vertical-align: top;
+  border-top: solid;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: #b3b3b3;
+}
+
+div.view-ba62c542acc518e1a9b624db03a908aa div.view-footer article div.content div.layout div.layout__region--center table tbody td p {
+  padding: 5px;
 }
 
 
@@ -684,6 +825,13 @@ div.field--name-f48443b8f19914f1544ba49170856613:after {
 
 main#content div.layout__region--center figure.align-right {
   padding-left: 20px;
+  padding-bottom: 10px;
+  margin-left: 50px;
+}
+
+main#content div.layout__region--center figcaption {
+  max-width: 430px;
+  padding-top: 10px;
   padding-bottom: 10px;
 }
 
