@@ -1,0 +1,1152 @@
+/* Layout Footer */
+
+footer.footer div.layout-container {
+  flex-basis: 1100px;
+  justify-content: space-between;
+}
+
+footer.footer div#footer-left {
+  max-width: 450px;
+  min-width: 0px;
+}
+
+footer.footer div#footer-contactdata {
+  position: absolute;
+  bottom: 15px;
+  display: inherit;
+  width: 100%;
+}
+
+div#footer-follow-us {
+  padding-top: 50px;
+  display: flex;
+  text-transform: uppercase;
+}
+
+div#footer-follow-us nobr {
+  padding-left: 20px;
+}
+
+div#footer-follow-us nobr a {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+div#footer-right-gnm {
+  display: none;
+}
+
+footer.footer div.site-footer__top {
+  position: relative;
+}
+
+footer.footer div.site-footer__top div.region-footer {
+  flex-direction: column;
+}
+
+section#block-logo-gnm-leibniz {
+  max-width: 200px;
+  margin-top: 30px;
+}
+
+section#block-dzklogofooter-2 div.layout div.layout__region div.field--type-link div.field--label {
+  display: none;
+}
+
+section#block-dzklogofooter-2 div.layout div.layout__region div.field--type-link div.field--items div.field--item a {
+  position: absolute;
+  padding-top: 50px;
+  top: 20px;
+  color: transparent;
+}
+
+@media (max-width: 1100px) {
+  footer.footer div#footer-left {
+    padding-left: 10px;
+  }
+  footer.footer div.site-footer__top {
+    padding-left: 10px;
+  }
+  footer.footer div#footer-right-wisski {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 800px) {
+  footer.footer div#footer-contactdata {
+    position: relative;
+    flex-direction: column;
+    left: 0px;
+    margin-top: 15px;
+  }
+  footer.footer div.layout-container div#footer-contactdata p {
+    padding-left: 0px;
+  }
+  footer.footer div.layout-container div#footer-contactdata p:last-child {
+    padding-top: 10px;
+  }
+  footer.footer div.layout-container div#footer-contactdata a {
+    padding-left: 0px;
+    display: contents;
+  }
+  footer.footer div.layout-container div#footer-contactdata span.gnm-pipe {
+    display: contents;
+  }
+  footer.footer div.layout-container div#footer-contactdata p:after {
+    display: none;
+  }
+  footer.footer div#footer-contactdata p:last-child:before {
+    display: none;
+  }
+}
+
+@media (max-width: 720px) {
+  footer.footer div#footer-contactdata {
+    left: 10px; 
+  }
+  footer.footer div#footer-follow-us {
+    padding-top: 20px;
+  }
+  footer.footer div.layout-container {
+    justify-content: start;
+    padding-left: 10px;
+  }
+  footer.footer div#footer-contactdata {
+    position: relative;
+    flex-direction: column;
+    left: 0px;
+    margin-top: 15px;
+  }
+  footer.footer div.layout-container div#footer-contactdata p {
+    padding-left: 0px;
+  }
+  footer.footer div.layout-container div#footer-contactdata p:last-child {
+    padding-top: 10px;
+  }
+  footer.footer div.layout-container div#footer-contactdata a {
+    padding-left: 0px;
+    display: contents;
+  }
+  footer.footer div.layout-container div#footer-contactdata span.gnm-pipe {
+    display: contents;
+  }
+  footer.footer div.layout-container div#footer-contactdata p:after {
+    display: none;
+  }
+  footer.footer div#footer-contactdata p:last-child:before {
+    display: none;
+  }
+}
+
+@media (max-width: 570px) {
+  footer.footer div.layout-container {
+    flex-direction: column;
+  }
+  footer.footer div#footer-left-bottom {
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+  footer.footer div#footer-left-top {
+    flex-direction: column;
+  }
+  footer.footer div#footer-gnm {
+    margin-bottom: 30px;
+  }
+  footer.footer div#footer-contactdata {
+    position: relative;
+    flex-direction: column;
+    left: 0px;
+    margin-top: 0px;
+  }
+  footer.footer div.layout-container div#footer-contactdata p {
+    padding-left: 0px;
+  }
+  footer.footer div.layout-container div#footer-contactdata p:last-child {
+    padding-top: 10px;
+  }
+  footer.footer div.layout-container div#footer-contactdata a {
+    padding-left: 0px;
+    display: contents;
+  }
+  footer.footer div.layout-container div#footer-contactdata span.gnm-pipe {
+    display: contents;
+  }
+  footer.footer div.layout-container div#footer-contactdata p:after {
+    display: none;
+  }
+  footer.footer div#footer-contactdata p:last-child:before {
+    display: none;
+  }
+  footer.footer div#footer-right-wisski {
+    margin-left: 0px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 450px) {
+  footer.footer div#footer-right {
+    flex-wrap: wrap;
+  }
+  footer.footer div#footer-right-gnm {
+    margin-bottom: 20px;
+  }
+  footer.footer div#footer-right-wisski {
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+  footer.footer div.site-footer__top div.region-footer {
+    flex-wrap: wrap; 
+  }
+  footer.footer section#block-logo-leibniz-footer {
+    margin-bottom: 20px;
+  }
+}
+
+footer.footer div#footer-contactdata p:first-child {
+  padding-left: 0px;
+}
+
+footer.footer div#footer-contactdata p {
+  padding-left: 5px;
+}
+
+footer.footer div#footer-contactdata p:after {
+  content: '\00a0|';
+}
+
+footer.footer div#footer-contactdata p:last-child:before {
+  content: '\00a0|';
+}
+
+footer.footer div#footer-contactdata p:last-child:after {
+  content:'';
+}
+
+footer.footer div#footer-contactdata a {
+  padding-left: 5px;
+}
+
+footer.footer div#footer-contactdata span.gnm-pipe {
+  padding-left: 5px;
+}
+
+footer.footer section#block-dzklogofooter-2 {
+  max-width: 200px;
+}
+
+footer.footer div.site-footer__top div.region-footer {
+  display: flex;
+}
+
+footer.footer div.site-footer__top div.region-footer section#block-logo-leibniz-footer {
+  padding-right: 30px;
+}
+  
+
+/* Suche */
+
+form#search-form div.input-group input {
+  z-index: 0;
+}
+
+/* solr search */
+
+/* Editionen Bild überblenden */
+
+div.view-edition-tagebuch-eins div.view-content div.grid div.views-field {
+  height: 280px;
+}
+
+div.view-edition-tagebuch-eins div.view-content div.grid div.views-field span.field-content div.layout__region--title div.field a {
+  position: absolute;
+  padding-top: 264px;
+  height: 100%;
+  bottom: 0px;
+  left: 10px;
+  width: 90%;
+}
+
+div.view-edition-tagebuch-zwei div.view-content div.grid span.views-field {
+  height: 280px;
+}
+
+div.view-edition-tagebuch-zwei div.view-content div.grid span.views-field span.field-content div.layout__region--title div.field a {
+  position: absolute;
+  padding-top: 264px;
+  height: 100%;
+  bottom: 0px;
+  left: 10px;
+  width: 90%;
+}
+
+div.view-edition-tagebuch-drei div.view-content div.grid span.views-field {
+  height: 280px;
+}
+
+div.view-edition-tagebuch-drei div.view-content div.grid span.views-field span.field-content div.layout__region--title div.field a {
+  position: absolute;
+  padding-top: 264px;
+  height: 100%;
+  bottom: 0px;
+  left: 10px;
+  width: 90%;
+}
+
+
+/* Tagebücher Tabelle */
+
+div.view-ba62c542acc518e1a9b624db03a908aa div.view-footer article h2 {
+  display: none;
+}
+
+div.view-ba62c542acc518e1a9b624db03a908aa div.view-footer article div.content div.layout div.layout__region--center table tbody td {
+  width: 190px;
+  border-left: solid;
+  border-right: solid;
+  border-width: 1px;
+  border-color: #b3b3b3;
+}
+
+div.view-ba62c542acc518e1a9b624db03a908aa div.view-footer article div.content div.layout div.layout__region--center table tbody td:first-child {
+  width: 100px;
+  font-weight: bold;
+  border-left: none;
+}
+
+div.view-ba62c542acc518e1a9b624db03a908aa div.view-footer article div.content div.layout div.layout__region--center table tbody td:last-child {
+  border-right: none;
+}
+
+div.view-ba62c542acc518e1a9b624db03a908aa div.view-footer article div.content div.layout div.layout__region--center table tbody tr:first-child {
+  font-weight: bold;
+  border-top: none;
+}
+
+div.view-ba62c542acc518e1a9b624db03a908aa div.view-footer article div.content div.layout div.layout__region--center table tbody tr:last-child {
+  border-bottom: none;
+}
+
+div.view-ba62c542acc518e1a9b624db03a908aa div.view-footer article div.content div.layout div.layout__region--center table tbody tr {
+  vertical-align: top;
+  border-top: solid;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: #b3b3b3;
+}
+
+div.view-ba62c542acc518e1a9b624db03a908aa div.view-footer article div.content div.layout div.layout__region--center table tbody td p {
+  padding: 5px;
+}
+
+
+/* Edition Tagebuch Eins */
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-eins div.view-content div.views-field
+span.field-content div.layout div.field--name-ffc23fa047189b1a762a5aa0d4046b08 div:first-child img {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 200px;
+  width: auto;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-eins div.view-header {
+  border-bottom: solid;
+  border-width: 1px;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-eins div.view-content div.views-field
+span.field-content div.layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-eins div.view-content div.views-field
+span.field-content div.layout div.layout__region--title {
+  display: inherit;
+  order: 2;
+  border-bottom: none;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-eins div.view-content div.views-field
+span.field-content div.layout div.layout__region--title div.field a {
+  font-size: initial;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-eins div.view-content div.views-field
+span.field-content div.layout div.layout__region--center {
+  display: inherit;
+  order: 1;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-eins div.view-content div.views-field
+span.field-content div.layout div.field {
+  display: none;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-eins div.view-content div.views-field
+span.field-content div.layout section.field--type-comment {
+  display: none;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-eins div.view-content div.views-field
+span.field-content div.layout div.layout__region--title div.field {
+  display: block;
+  text-align: center;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-eins div.view-content div.views-field
+span.field-content div.layout div.field--name-ffc23fa047189b1a762a5aa0d4046b08 {
+  display: block;
+}
+
+
+/* Edition Tagebuch Zwei */
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-zwei div.view-content span.views-field
+span.field-content div.layout div.field--name-ffc23fa047189b1a762a5aa0d4046b08
+div:first-child img {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 200px;
+  width: auto;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-zwei div.view-header {
+  border-bottom: solid;
+  border-width: 1px;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-zwei div.view-content span.views-field
+span.field-content div.layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-zwei div.view-content span.views-field
+span.field-content div.layout div.layout__region--title {
+  display: inherit;
+  order: 2;
+  border-bottom: none;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-zwei div.view-content span.views-field
+span.field-content div.layout div.layout__region--title div.field a {
+  font-size: initial;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-zwei div.view-content span.views-field
+span.field-content div.layout div.layout__region--center {
+  display: inherit;
+  order: 1;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-zwei div.view-content span.views-field
+span.field-content div.layout div.field {
+  display: none;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-zwei div.view-content span.views-field
+span.field-content div.layout section.field--type-comment {
+  display: none;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-zwei div.view-content span.views-field
+span.field-content div.layout div.layout__region--title div.field {
+  display: block;
+  text-align: center;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-zwei div.view-content span.views-field
+span.field-content div.layout div.field--name-ffc23fa047189b1a762a5aa0d4046b08 {
+  display: block;
+}
+
+
+/* Edition Tagebuch Drei */
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-drei div.view-content span.views-field
+span.field-content div.layout div.field--name-ffc23fa047189b1a762a5aa0d4046b08
+div:first-child img {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 200px;
+  width: auto;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-drei div.view-header {
+  border-bottom: solid;
+  border-width: 1px;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-drei div.view-content span.views-field
+span.field-content div.layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-drei div.view-content span.views-field
+span.field-content div.layout div.layout__region--title {
+  display: inherit;
+  order: 2;
+  border-bottom: none;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-drei div.view-content span.views-field
+span.field-content div.layout div.layout__region--title div.field a {
+  font-size: initial;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-drei div.view-content span.views-field
+span.field-content div.layout div.layout__region--center {
+  display: inherit;
+  order: 1;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-drei div.view-content span.views-field
+span.field-content div.layout div.field {
+  display: none;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-drei div.view-content span.views-field
+span.field-content div.layout section.field--type-comment {
+  display: none;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-drei div.view-content span.views-field
+span.field-content div.layout div.layout__region--title div.field {
+  display: block;
+  text-align: center;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-drei div.view-content span.views-field
+span.field-content div.layout div.field--name-ffc23fa047189b1a762a5aa0d4046b08 {
+  display: block;
+}
+
+
+/* Facets */
+
+section.block-facet--links {
+  margin-bottom: 10px;
+}
+
+section.block-facets--links > h2.block-title {
+  margin-bottom: 5px;
+}
+
+section.block-facet--links div.facets-widget-links > ul.item-list__links {
+  margin-bottom: 5px;
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+
+/* View Suche */
+
+main#content div.view-suche div.view-header {
+  text-align: start;
+  padding-bottom: 20px;
+}
+
+main#content div.view-suche div.layout__region--title {
+  display: flex;
+  flex-basis: 100%;
+  overflow: hidden;
+  clear: both;
+}
+
+main#content div.view-suche div.layout__region--center div.field--type-text-long p {
+  margin-bottom: 10px;
+}
+
+main#content div.view-suche div.layout__region--center ul.footnotes {
+  margin-bottom: 0px;
+}
+
+main#content div.view-suche div.layout__region--bottom {
+  overflow: hidden;
+  clear: both;
+  margin-bottom: 50px;
+}
+
+main#content div.view-suche div.layout__region--bottom section.field--type-comment {
+  display: none;
+}
+
+main#content div.view-suche div.layout__region--bottom div.field--label-above div.field__label {
+  display: block;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  padding-right: 10px;
+}
+
+main#content div.view-suche div.layout__region--bottom div.field--label-above div.field__item {
+  display: block;
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
+
+main#content div.view-suche nav.pager-nav {
+  display: flex;
+  justify-content: center;
+  flex-basis: 100%;
+  overflow: hidden;
+  clear: both;
+}
+
+main#content div.view-suche div.form-group div.form-item label.control-label {
+  display: none;
+}
+
+main#content div.view-suche div#edit-actions button.btn-info {
+  color: #fff;
+  background-color: #fff;
+  border-color: #ccc;
+}  
+
+main#content div.view-suche div#edit-actions button.btn-info:after {
+  content: 'Suche';
+  color: #333;
+  margin-left: -30px;
+}
+
+main#content div.view-suche div#edit-actions button.btn-info:hover {
+  color: #e6e6e6;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+
+div#main div#sidebar-first {
+  margin-left: -300px;
+}
+
+div#main div.region-sidebar-first section div.facets-widget-links h3 {
+  font-size: 2rem;
+}
+
+@media (max-width: 1710px) {
+  div#main div#sidebar-first {
+    margin-left: 30px;
+    order: 1;
+    width: 100%;
+  }
+}
+
+
+/* Button Suche */
+
+header#header div.region-secondary-menu nav div.dropdown ul li a[href="/suche"]:before {
+  content: "\e003";
+  position: absolute;
+  top: 0px;
+  left: -10px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+/* Bearbeitung */
+
+div.region-content nav.tabs {
+  right: -47px;
+}
+
+
+/* Navigation */
+
+main#content section.section div.region-content div.views-element-container div.viewflexgrid div.view-content {
+  text-align: center;
+}
+
+
+/* Navigation BEF Links */
+
+div.bef-links div.form-group:first-child a {
+  visibility: hidden;
+}
+
+div.bef-links div.form-group:first-child a:after {
+  content: '-Alle-';
+  margin-left: -30px;
+  visibility: visible;
+}
+
+div.views-element-container div.view div.view-header {
+  padding-bottom: 6px;
+}
+
+
+/* Field Display */
+
+main#content div.field.field--type-string div.field--items > div.field--item {
+  display: inline;
+}
+
+main#content div.field.field--type-string div.field--items {
+  word-break: break-word;
+}
+
+main#content div.field.field--type-string div.field--items > div.field--item:after {
+  content: ";\00a0";
+}
+
+main#content div.field.field--type-string div.field--items > div.field--item:last-child:after {
+  content: "";
+}
+
+div.layout__region--bottom > section {
+  display: contents;
+}
+
+div.layout__region--bottom form.comment-form {
+  display: block;
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+
+
+/* Literaturverweise */
+
+div.layout div.layout__region--bottom div.field.field--name-b8b36bee19ad934da7fb0ec214d823a3.field--type-entity-reference.field--label-above div.field--items div.field--item {
+  display: inline;
+}
+
+div.field--name-f266e6d57e78dda375500421c277aec5:before {
+  content: ", S. ";
+}
+
+div.layout div.layout__region--bottom div.field.field--name-b809cead17471d259303e768ff82233f.field--type-entity-reference.field--label-above div.field--items div.field--item {
+  display: inline;
+}
+
+div.field--name-fd05799077a6b003266235d3cbb35a77:before {
+  content: ", S. ";
+}
+
+div.layout div.layout__region--bottom div.field.field--name-bfcc7d85ce4eca187afc0104953a3f20.field--type-entity-reference.field--label-above div.field--items div.field--item {
+  display: inline;
+}
+
+div.field--name-f66075a6294915c5e1eef3917078817d:before {
+  content: ", S. ";
+}
+
+div.layout div.layout__region--bottom div.field.field--name-bbe987d32f3e0c2703e31058cd730980.field--type-entity-reference.field--label-above div.field--items div.field--item {
+  display: inline;
+}
+
+div.field--name-f28ba44f1ba600577eb32786a712533c:before {
+  content: ", S. ";
+}
+
+
+/* Lebensdaten */
+
+div.field--name-f12cf73312fab3d36574e3fc03ca2857:before {
+  content: ", ";
+}
+
+div.field--name-f7543dbd82794d3c84eb37fc128eceda {
+  display: block !important;
+}
+
+div.field--name-f7543dbd82794d3c84eb37fc128eceda:before {
+  content: "Vater: ";
+  padding-right: 9px;
+  font-weight: bold;
+}
+
+div.field--name-fc273bd3802105ef7b75012dea470aad {
+  display: block !important;
+}
+
+div.field--name-fc273bd3802105ef7b75012dea470aad:before {
+  content: "Mutter: ";
+  font-weight: bold;
+}
+
+div.field--name-fe3ad5a30f2d0ea9c97ff8a44116c9bf:before {
+  content: ", ";
+}
+
+div.field--name-f48443b8f19914f1544ba49170856613:before {
+  content: " (";
+}
+
+div.field--name-f48443b8f19914f1544ba49170856613:after {
+  content: ")";
+}
+
+
+/* Projektbeschreibung */
+
+main#content div.layout__region--center figure.align-right {
+  padding-left: 20px;
+  padding-bottom: 10px;
+  margin-left: 50px;
+}
+
+main#content div.layout__region--center figcaption {
+  max-width: 430px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+main#content article.page div.layout__region--title:empty {
+  display: none;
+}
+
+
+/* Layout Pages */
+
+@media (max-width: 1130px) {
+  main#content section article p {
+    margin-left: 10px;
+  }
+}
+
+/* Layout Tagebücher */
+
+main#content section.section div.region-content div.views-element-container div.view-ba62c542acc518e1a9b624db03a908aa {
+  margin-top: 30px;
+}
+
+
+/* Layout Edition */
+
+div.region-content div.layout--1300px--one div.layout__region--center {
+  float: initial;
+}
+
+main#content div.layout--onecol--1300px--one div.layout__region--center {
+  display: initial;
+}
+
+main#content div.layout--onecol--1300px--one div.layout__region--center > div.field {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+main#content div.layout--onecol--1300px--one div.layout__region--center ul.footnotes {
+  padding-top: 10px;
+}
+
+main#content div.layout--onecol--1300px--one div.layout__region--center ul.footnotes li {
+  margin-bottom: 5px;
+}
+
+main#content div.layout--onecol--1300px--one div.layout__region--center ul.footnotes li p {
+  margin-bottom: 0px;
+}
+
+div.field--name-ffc23fa047189b1a762a5aa0d4046b08 {
+  float: right;
+}
+
+
+/* Kommentare */
+
+div.layout__region--bottom > section h2 {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  font-size: 2rem;
+}
+
+div.layout__region--bottom > section article.js-comment {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  margin-bottom: 20px;
+}
+
+div.layout__region--bottom > section div.indented {
+  display: contents;
+}
+
+div.layout__region--bottom > section article.js-comment footer {
+  color: black;
+  background-color: white;
+  border: solid 1px #e30019;
+}
+
+div.layout__region--bottom > section article.js-comment footer a {
+  color: #e30019;
+}
+
+div.layout__region--bottom > section article.js-comment footer > a {
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+div.layout__region--bottom > section article.js-comment footer p {
+  padding-top: 5px;
+}
+
+div.layout__region--bottom > section article.js-comment div h3 {
+  font-size: 2rem;
+}
+
+div.view-aktuelle-kommentare article.js-comment footer {
+  color: black;
+  background-color: white;
+  border: solid 1px #e30019;
+}
+
+div.view-aktuelle-kommentare article.js-comment footer a {
+  color: #e30019;
+}
+
+div.view-aktuelle-kommentare article.js-comment footer p {
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+div.view-aktuelle-kommentare article.js-comment footer > a {
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-left: 10px;
+}
+
+div.view-aktuelle-kommentare article.js-comment div h3 {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+div.view-aktuelle-kommentare article.js-comment div ul {
+  margin-bottom: 20px;
+}
+
+
+/* View Aufenthaltsdaten */
+
+div#geofield-map-view-aufenthaltsorte-page-1 ul li {
+  list-style-type: none;
+}
+
+div#geofield-map-view-aufenthaltsorte-page-1 ul li div.field--label {
+  display: none;
+}
+
+main#content div#geofield-map-view-aufenthaltsorte-page-1 ul li div.field--item {
+  display: block;
+  padding-bottom: 5px;
+}
+
+main#content div#geofield-map-view-aufenthaltsorte-page-1 ul li div.field--item:after {
+  content: "";
+}
+
+
+/* View Körperschaften */
+
+form#views-exposed-form-bab2e96b12847b3c7a424e3cb331d7dd-bab2e96b12847b3c7a424e3cb331d7dd div.form--inline fieldset.form-wrapper legend {
+  top: 55px;
+}
+
+
+/* View Ortsdaten */
+
+div.views-field-wisski-path-hauptpb__koordinaten {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Editor styles */
+
+span.ueberschreibung, span.unleserlich, span.unsichere_lesung,
+span.einfuegung, span.skizze, span.graphische_auszeichnung,
+span.fremdtext_archivintern, span.fremdtext_dritte,
+span.fremdtext_vorgedrucktes {
+    border-style: dotted;
+    border-width: 2px;
+    border-color: rgb(200,200,200);
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.cke_editable span.ueberschreibung, .cke_editable span.unleserlich, .cke_editable span.unsichere_lesung,
+.cke_editable span.einfuegung, .cke_editable span.skizze, .cke_editable span.graphische_auszeichnung,
+.cke_editable span.fremdtext_archivintern, .cke_editable
+span.fremdtext_dritte, .cke_editable span.fremdtext_vorgedrucktes {
+    border-style: dotted;
+    border-width: 2px;
+    border-color: black;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+span.fehlseiten, span.editorenkommentar {
+    font-style: italic;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: rgb(200,200,200);
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.cke_editable span.fehlseiten, .cke_editable span.editorenkommentar {
+    font-style: italic;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: black;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+span.ueberschreibung::before {
+    font-style: italic;
+    content: "[\0000DCberschrieben: ";
+}
+
+span.ueberschreibung::after, span.unleserlich::after, span.einfuegung::after {
+    font-style: italic;
+    content: "]";
+}
+
+span.unleserlich::before {
+    font-style: italic;
+    content: "[Unleserlich: ";
+}
+
+span.unsichere_lesung::after {
+    font-style: italic;
+    content: " [?]";
+}
+
+span.einfuegung::before {
+    font-style: italic;
+    content: "[Einf\0000fcgung: ";
+}
+
+span.skizze::before {
+    font-style: italic;
+    content: "[Skizze]";
+}
+
+span.fehlseiten::before {
+    font-style: italic;
+    content: "[Es folgen ";
+}
+
+span.fehlseiten::after {
+    font-style: italic;
+    content: " Fehlseiten]";
+}
+
+span.anstreichung {
+    border-left: 2px solid grey;
+    display: inline-block;
+    padding-left: 5px;
+}
+
+span.durchstreichung_absatz {
+    position: relative;
+    display: inline-block;
+    background-image: linear-gradient(to bottom right,  transparent calc(50% - 1px), black, transparent calc(50% + 1px));
+}
+
+span.trennstrich {
+    content: "";
+    width: 30%;
+    display: inline-block;
+    position: relative;
+}
+
+span.trennstrich::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0.7em;
+    left: 0;
+    #transform: skewY(-7deg);
+    width: 100%;
+    height: 1px;
+    background: #000;
+}
+
+span.einrueckung_relativ {
+    display: inline-block;
+    padding-left: 2em;
+}
+
+span.fremdtext_archivintern::after {
+    font-style: italic;
+    content: " [andere Hand archivintern]";
+}
+
+span.fremdtext_dritte::after {
+    font-style: italic;
+    content: " [andere Hand]";
+}
+
+span.fremdtext_vorgedrucktes::after {
+    font-style: italic;
+    content: " [Fremdtext vorgedruckt]";
+}
+
+span.editorenkommentar::before {
+    content: "[";
+    font-style: italic;
+}
+
+span.editorenkommentar::after {
+    content: "]";
+    font-style: italic;
+}
+
+.field__item p {
+    margin-bottom: 0;
+}
+
+.cke_editable p {
+    margin-bottom: 0;
+}
+
+.field--name-fb287a02fa5f8d22b89f391fd8b86834 .field__item p::after {
+    font-style: italic;
+    content: " /";
+    opacity: 0.3;
+}
