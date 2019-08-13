@@ -9,6 +9,7 @@ footer {
   display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
   -webkit-justify-content: center;
   justify-content: center;
+  overflow-x: hidden;
 }
 
 @media ( min-height: 950px ) { 

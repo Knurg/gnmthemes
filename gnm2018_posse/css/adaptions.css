@@ -292,6 +292,32 @@ div.view-edition-tagebuch-drei div.view-content div.grid span.views-field span.f
   width: 90%;
 }
 
+div.view-edition-tagebuch-vier div.view-content div.grid span.views-field {
+  height: 280px;
+}
+
+div.view-edition-tagebuch-vier div.view-content div.grid span.views-field span.field-content div.layout__region--tit
+  position: absolute;
+  padding-top: 264px;
+  height: 100%;
+  bottom: 0px;
+  left: 10px;
+  width: 90%;
+}
+
+div.view-edition-tagebuch-funf div.view-content div.grid span.views-field {
+  height: 280px;
+}
+
+div.view-edition-tagebuch-funf div.view-content div.grid span.views-field span.field-content div.layout__region--tit
+  position: absolute;
+  padding-top: 264px;
+  height: 100%;
+  bottom: 0px;
+  left: 10px;
+  width: 90%;
+}
+
 
 /* Tagebücher Tabelle */
 
@@ -563,6 +589,156 @@ span.field-content div.layout div.field--name-ffc23fa047189b1a762a5aa0d4046b08 {
 }
 
 
+/* Edition Tagebuch Vier */
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-vier div.view-content span.views-field
+span.field-content div.layout div.field--name-ffc23fa047189b1a762a5aa0d4046b08
+div:first-child img {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 200px;
+  width: auto;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-vier div.view-header {
+  border-bottom: solid;
+  border-width: 1px;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-vier div.view-content span.views-field
+span.field-content div.layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-vier div.view-content span.views-field
+span.field-content div.layout div.layout__region--title {
+  display: inherit;
+  order: 2;
+  border-bottom: none;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-vier div.view-content span.views-field
+span.field-content div.layout div.layout__region--title div.field a {
+  font-size: initial;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-vier div.view-content span.views-field
+span.field-content div.layout div.layout__region--center {
+  display: inherit;
+  order: 1;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-vier div.view-content span.views-field
+span.field-content div.layout div.field {
+  display: none;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-vier div.view-content span.views-field
+span.field-content div.layout section.field--type-comment {
+  display: none;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-vier div.view-content span.views-field
+span.field-content div.layout div.layout__region--title div.field {
+  display: block;
+  text-align: center;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-vier div.view-content span.views-field
+span.field-content div.layout div.field--name-ffc23fa047189b1a762a5aa0d4046b08 {
+  display: block;
+}
+
+
+/* Edition Tagebuch Fuenf */
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-funf div.view-content span.views-field
+span.field-content div.layout div.field--name-ffc23fa047189b1a762a5aa0d4046b08
+div:first-child img {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 200px;
+  width: auto;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-funf div.view-header {
+  border-bottom: solid;
+  border-width: 1px;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-funf div.view-content span.views-field
+span.field-content div.layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-funf div.view-content span.views-field
+span.field-content div.layout div.layout__region--title {
+  display: inherit;
+  order: 2;
+  border-bottom: none;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-funf div.view-content span.views-field
+span.field-content div.layout div.layout__region--title div.field a {
+  font-size: initial;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-funf div.view-content span.views-field
+span.field-content div.layout div.layout__region--center {
+  display: inherit;
+  order: 1;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-funf div.view-content span.views-field
+span.field-content div.layout div.field {
+  display: none;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-funf div.view-content span.views-field
+span.field-content div.layout section.field--type-comment {
+  display: none;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-funf div.view-content span.views-field
+span.field-content div.layout div.layout__region--title div.field {
+  display: block;
+  text-align: center;
+}
+
+body > div > div#page-wrapper > div#page > div#main-wrapper > div#main > main#content > section.section > div.region
+> div.views-element-container > div.view-edition-tagebuch-funf div.view-content span.views-field
+span.field-content div.layout div.field--name-ffc23fa047189b1a762a5aa0d4046b08 {
+  display: block;
+}
+
+
 /* Facets */
 
 section.block-facet--links {
@@ -786,8 +962,13 @@ div.field--name-f28ba44f1ba600577eb32786a712533c:before {
 /* Lebensdaten */
 
 div.field--name-f12cf73312fab3d36574e3fc03ca2857:before {
-  content: ", ";
+  content: " (Geburtsort: ";
 }
+
+div.field--name-f12cf73312fab3d36574e3fc03ca2857:after {
+  content: ")";
+}
+
 
 div.field--name-f7543dbd82794d3c84eb37fc128eceda {
   display: block !important;
@@ -809,7 +990,11 @@ div.field--name-fc273bd3802105ef7b75012dea470aad:before {
 }
 
 div.field--name-fe3ad5a30f2d0ea9c97ff8a44116c9bf:before {
-  content: ", ";
+  content: " (Sterbeort: ";
+}
+
+div.field--name-fe3ad5a30f2d0ea9c97ff8a44116c9bf:after {
+  content: ")";
 }
 
 div.field--name-f48443b8f19914f1544ba49170856613:before {
