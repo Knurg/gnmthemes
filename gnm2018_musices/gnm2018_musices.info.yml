@@ -1,0 +1,20 @@
+name: MUSICES theme based on GNM Corporate Design 2018
+type: theme
+description: The MUSICES theme based on GNM Corporate Design for WissKI Systems.
+core: 8.x
+package: Custom
+base theme: gnm2018
+libraries:
+  - gnm2018_musices/musices_adaptions
+regions:
+  above_header: 'Above header'
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  highlighted: Highlighted
+  breadcrumb: Breadcrumb
+  content: Content
+  sidebar_first: 'Left sidebar'
+  sidebar_second: 'Right sidebar'
+  footer: Footer
+
