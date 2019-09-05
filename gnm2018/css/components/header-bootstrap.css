@@ -44,7 +44,7 @@ div#first-level-wrapper {
 }
 
 div#first-level {
-  padding-right: 140px;
+  padding-right: 145px;
   -webkit-box-pack: end; /* justify-content */ 
   -webkit-box-align: end; /* align-items */ 
   -webkit-justify-content: flex-end;
