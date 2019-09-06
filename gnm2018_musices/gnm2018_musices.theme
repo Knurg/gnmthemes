@@ -1,11 +1,21 @@
 <?php
 
 function gnm2018_musices_preprocess_field(&$variables, $hook) {
-#  dpm(serialize($variable), "yay!");
+#  dpm(serialize($variables), "yay!");
 
   $element = $variables['element'];
 
+#  $variables = array();
+
   global $wisski_seen_that;
+
+  // 3d rewrite
+  if($element['#field_name'] == 'f8337fab18e38692e51d0931393154c3' ||
+     $element['#field_name'] == 'fe663db9aa28c1ecca213e19848e2b67') {
+#    dpm($variables, "var?");
+#     $variables = array();
+  }
+
 
   // objektkategorie rewrite
   if($element['#field_name'] == 'f1621dd2af001f2f8b9e61b67040bbad') {

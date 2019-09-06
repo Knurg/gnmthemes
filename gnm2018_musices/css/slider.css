@@ -44,14 +44,27 @@
 
 
 /* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 160px;
-  width: 100%;
-  text-align: center;
+@media (min-width: 1900px) {
+  .text {
+    color: #f2f2f2;
+    font-size: 25px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 160px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1899px) {
+  .text {
+    color: #f2f2f2;
+    font-size: 25px;
+    padding: 8px 12px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
 }
 .text h1 {font-weight: normal; font-size: 2em}
 .text h2 {}
