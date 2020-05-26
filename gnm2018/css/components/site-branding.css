@@ -14,7 +14,7 @@ section.site-branding div.site-branding__text {
   display: flex;
   overflow: hidden;
   width: auto;
-  top: -1.5em;
+/*  top: -1.5em; */
   position: absolute;
   background-color: white;
   z-index: -1000;
