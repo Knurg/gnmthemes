@@ -1129,3 +1129,6 @@ div.field--name-field-kartierung-block div.field__item div.views-row img {
   max-width: 250px;
 }
 
+div#second-level div#main-menu {
+  position: absolute;
+}

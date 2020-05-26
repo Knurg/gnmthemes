@@ -146,7 +146,7 @@ div#second-level div#header-items {
   div#second-level div#header-items section[id$='branding'][id^='block-'] {
     float: left;
     margin-right: 18px;
-    margin-top: -28px;
+    margin-top: -24px;
   }
   div#second-level div#header-items > div.region-header {
     position: absolute;
