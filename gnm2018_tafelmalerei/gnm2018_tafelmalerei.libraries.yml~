@@ -1,0 +1,6 @@
+provenienz_adaptions:
+  version: VERSION
+  css:
+    theme:
+      css/adaptions.css: {}  
+      css/slider.css: {}
